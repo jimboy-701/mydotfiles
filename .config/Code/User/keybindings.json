@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaults
+[
+{
+    "key": "alt+shift+t",
+    "command": "trailing-spaces.deleteTrailingSpaces",
+    "when": "editorTextFocus"
+},
+
+{
+    "key": "alt+shift+m",
+    "command": "trailing-spaces.deleteTrailingSpacesModifiedLinesOnly",
+    "when": "editorTextFocus"
+},
+
+{
+    "key": "alt+shift+h",
+    "command": "trailing-spaces.highlightTrailingSpaces",
+    "when": "editorTextFocus"
+}
+
+]
