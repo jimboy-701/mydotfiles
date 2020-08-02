@@ -1,0 +1,17 @@
+[Appearance]
+BackgroundColorOpacity=0
+Skin=breeze-thin-dark
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Profile 2.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Window]
+KeepOpen=false
+ShowTabBar=false
