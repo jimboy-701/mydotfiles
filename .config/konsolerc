@@ -1,11 +1,11 @@
 [Desktop Entry]
-DefaultProfile=Profile 5.profile
+DefaultProfile=Profile 2.profile
 
 [Favorite Profiles]
-Favorites=
+Favorites=Profile 2.profile
 
 [MainWindow]
 Height 1080=404
-State=AAAA/wAAAAD9AAAAAAAAA94AAAFMAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA94AAAF2AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1920=990

@@ -1,11 +1,40 @@
 HISTFILE=~/.zhistory
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 bindkey -e
 zstyle :compinstall filename '/home/jma/.zshrc'
 autoload -Uz compinit; compinit
 autoload -Uz add-zsh-hook
 
+# http://zsh.sourceforge.net/Intro/intro_16.html
+setopt autocd
+setopt cdablevars
+setopt correct
+setopt correctall
+setopt globdots
+setopt extendedglob
+setopt interactivecomments
+setopt rcquotes
+setopt sunkeyboardhack
+
+# https://pissedoffadmins.com/os/my-zshrc.html
+setopt APPEND_HISTORY           # append rather than overwrite history file.
+setopt EXTENDED_HISTORY         # save timestamp and runtime information
+setopt HIST_EXPIRE_DUPS_FIRST   # allow dups, but expire old ones when I hit HISTSIZE
+setopt HIST_FIND_NO_DUPS        # don't find duplicates in history
+setopt HIST_IGNORE_ALL_DUPS     # ignore duplicate commands regardless of commands in between
+setopt HIST_IGNORE_DUPS         # ignore duplicate commands
+setopt HIST_REDUCE_BLANKS       # leave blanks out
+setopt HIST_SAVE_NO_DUPS        # don't save duplicates
+setopt INC_APPEND_HISTORY       # write after each command
+setopt PUSHD_IGNORE_DUPS
+setopt SHARE_HISTORY            # share history between sessions
+
+setopt NO_CASE_GLOB             # case insensitive globbing
+setopt NUMERIC_GLOB_SORT        # numeric glob sort
+unsetopt caseglob
+
+# binaries installed by python pip (for working with vscode)
 export PATH=/home/jma/.local/bin:$PATH
 
 DIRSTACKFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/dirs"
@@ -31,6 +60,8 @@ export EDITOR=/user/bin/nano
 export VISUAL=/usr/bin/nano
 export PAGER=/usr/bin/less
 export PYTHONSTARTUP=".pythonrc.py"
+
+alias update="source ~/.zshrc"
 
 alias python='clear; python -i -q'
 alias pwsh='clear; pwsh-preview -NoLogo'
