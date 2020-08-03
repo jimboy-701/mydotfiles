@@ -21,6 +21,12 @@
     "kite.showWelcomeNotificationOnStartup": false,
     "terminal.integrated.cursorBlinking": true,
 
+    "bracket-pair-colorizer-2.colors": [
+        "#D9D9D9",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+
     "restoreTerminals.terminals": [
         {
             "splitTerminals": [
