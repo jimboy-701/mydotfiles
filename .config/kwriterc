@@ -4,8 +4,8 @@ ShowPath=true
 ShowStatusBar=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/powershell/starship.toml,file:$HOME/yadm.txt,file:$HOME/.ssh/id_rsa.pub,file:$HOME/.starship.toml,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/.zsh/zsh_plugins.txt,file:$HOME/.config/neofetch/config.conf,file:$HOME/Dropbox/Kungfu/fzf.txt,file:$HOME/.dircolors,file:$HOME/.pythonrc.py,file:$HOME/Dropbox/Linux.Howtos/MyArchlinuxSetupGuide.txt,file:$HOME/.nanorc,file:$HOME/.config/yay/config.json,file:$HOME/Dropbox/App.Configs/archonzfs.zshrc.txt
-Recent URLs[$e]=file:$HOME/.ssh/
+Recent Files[$e]=file:$HOME/.config/powershell/starship.toml,file:$HOME/.zshrc,file:$HOME/sambashare.txt,file:$HOME/git-ssh-vscode.txt,file:$HOME/Dropbox/Kungfu/bash_tricks.txt,file:$HOME/smb.conf.default,file:$HOME/yabause-kronos-build.log,file:$HOME/yadm.txt,file:$HOME/.ssh/id_rsa.pub,file:$HOME/.starship.toml,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/.zsh/zsh_plugins.txt,file:$HOME/.config/neofetch/config.conf,file:$HOME/Dropbox/Kungfu/fzf.txt,file:$HOME/.dircolors,file:$HOME/.pythonrc.py
+Recent URLs[$e]=file:$HOME/Dropbox/Kungfu/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -102,28 +102,28 @@ Search History=.py,.r,crop_mode,source,42,rar,xlsxm,zst,txt
 
 [MainWindow]
 Height 1080=435
-State=AAAA/wAAAAD9AAAAAAAABVYAAAGVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA+MAAAGVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1366
+Width 1920=995
 
 [Recent Files]
-File1[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
-File10[$e]=$HOME/.config/yakuake.notifyrc
-File2[$e]=$HOME/.config/powershell/powershell.config.json
-File3[$e]=$HOME/Dropbox/PowerShellNotes2.txt
-File4[$e]=$HOME/Dropbox/PowerShellNotes.txt
-File5[$e]=$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
-File6[$e]=$HOME/.zshrc
-File7[$e]=$HOME/.starship.toml
-File8[$e]=$HOME/.config/snes9x/snes9x.conf
-File9[$e]=$HOME/.ssh/id_rsa.pub
-Name1[$e]=.directory
-Name10[$e]=yakuake.notifyrc
-Name2[$e]=powershell.config.json
-Name3[$e]=PowerShellNotes2.txt
-Name4[$e]=PowerShellNotes.txt
-Name5[$e]=Microsoft.PowerShell_profile.ps1
-Name6[$e]=.zshrc
-Name7[$e]=.starship.toml
-Name8[$e]=snes9x.conf
-Name9[$e]=id_rsa.pub
+File1[$e]=$HOME/yadm.txt
+File10[$e]=$HOME/.vscode/argv.json
+File2[$e]=$HOME/.config/reicast/mappings/evdev_Performance Designed Products Wireless Controller for PS3.cfg
+File3[$e]=$HOME/.config/reicast/emu.cfg
+File4[$e]=$HOME/smb.conf.default
+File5[$e]=$HOME/sambashare.txt
+File6[$e]=$HOME/Dropbox/Kungfu/bash_tricks.txt
+File7[$e]=$HOME/git-ssh-vscode.txt
+File8[$e]=$HOME/.zshrc
+File9[$e]=$HOME/.vscode/settings.json
+Name1[$e]=yadm.txt
+Name10[$e]=argv.json
+Name2[$e]=evdev_Performance Designed Products Wireless Controller for PS3.cfg
+Name3[$e]=emu.cfg
+Name4[$e]=smb.conf.default
+Name5[$e]=sambashare.txt
+Name6[$e]=bash_tricks.txt
+Name7[$e]=git-ssh-vscode.txt
+Name8[$e]=.zshrc
+Name9[$e]=settings.json
