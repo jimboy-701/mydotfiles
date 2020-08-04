@@ -6,13 +6,16 @@ zstyle :compinstall filename '/home/jma/.zshrc'
 autoload -Uz compinit; compinit
 autoload -Uz add-zsh-hook
 
+umask 077
+
 # http://zsh.sourceforge.net/Intro/intro_16.html
-setopt autocd
-setopt cdablevars
+# setopt autocd
+# setopt cdablevars
 setopt correct
 setopt correctall
 setopt globdots
 setopt extendedglob
+setopt +o nomatch               # See aliases section "lh, lhl" below
 setopt interactivecomments
 setopt rcquotes
 setopt sunkeyboardhack
@@ -29,7 +32,6 @@ setopt HIST_SAVE_NO_DUPS        # don't save duplicates
 setopt INC_APPEND_HISTORY       # write after each command
 setopt PUSHD_IGNORE_DUPS
 setopt SHARE_HISTORY            # share history between sessions
-
 setopt NO_CASE_GLOB             # case insensitive globbing
 setopt NUMERIC_GLOB_SORT        # numeric glob sort
 unsetopt caseglob
@@ -77,8 +79,12 @@ alias l="ls --color --classify --group-directories-first"
 alias ll="ls -l --color --classify --group-directories-first"
 alias la="ls -a --color --classify --group-directories-first"
 alias lla="ls -la --color --classify --group-directories-first"
-alias lh="ls -d --color --classify --group-directories-first .??*"
-alias lhl="ls -ld --color --classify --group-directories-first .??*"
+
+# How to get rid of “zsh: no matches found: .?*”
+# https://unix.stackexchange.com/questions/310540/how-to-get-rid-of-no-match-found-when-running-rm
+alias lh="ls -d --color --classify --group-directories-first .?* 2>/dev/null"
+alias lhl="ls -ld --color --classify --group-directories-first .?* 2>/dev/null"
+
 alias dl="ls -d --color --classify */"
 alias dll="ls -ld --color --classify */"
 alias lt="exa -T"

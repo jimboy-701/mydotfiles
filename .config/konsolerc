@@ -4,8 +4,9 @@ DefaultProfile=Profile 2.profile
 [Favorite Profiles]
 Favorites=Profile 2.profile
 
+[KonsoleWindow]
+SaveGeometryOnExit=false
+
 [MainWindow]
-Height 1080=404
-State=AAAA/wAAAAD9AAAAAAAAA94AAAF2AAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABGMAAAF+AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1920=990
