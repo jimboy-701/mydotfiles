@@ -113,52 +113,42 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .cbr                  38;5;141
 .cbz                  38;5;141
 .chm                  38;5;141
-.djvu                 38;5;141
 .pdf                  38;5;141
 .mobi                 38;5;141
 .epub                 38;5;141
 
-# words
-.docm                 38;5;111;4
+# Microsoft Word (Sky Blue)
+.docm                 38;5;111
 .doc                  38;5;111
 .docx                 38;5;111
-.odb                  38;5;111
-.odt                  38;5;111
-.rtf                  38;5;111
+.wps                  38;5;111  # Microsoft Works
+.rtf                  38;5;111  # Rich Text Format
 
-# presentation
-.odp                  38;5;166
-.pps                  38;5;166
+
+# Microsoft Powerpoint
+.pps                  38;5;166 (Orange)
 .ppt                  38;5;166
 .pptx                 38;5;166
-
-#   Powerpoint show
 .ppts                 38;5;166
+.pptxm                38;5;166
+.pptsm                38;5;166
 
-#   Powerpoint with enabled macros
-.pptxm                38;5;166;4
-
-#   Powerpoint show with enabled macros
-.pptsm                38;5;166;4
-
-# spreadsheet
-.csv                  38;5;78
-.tsv                  38;5;78
-
-#   Open document spreadsheet
-.ods                  38;5;112
-.xla                  38;5;76
-
-#   Excel spreadsheet
+# Microsoft Excel
 .xls                  38;5;112
 .xlsx                 38;5;112
-
-#   Excel spreadsheet with macros
-.xlsxm                38;5;112;4
-
-#   Excel module
+.xlsxm                38;5;112
 .xltm                 38;5;73;4
 .xltx                 38;5;73
+
+# Open Office Documents
+.odb                  38;5;111
+.odt                  38;5;111
+.odp                  38;5;166
+.ods                  38;5;112
+
+# Text-based Spreadsheet (Mint Green)
+.csv                  38;5;78  # Comma Separated Values File
+.tsv                  38;5;78  # Tab Separated Values File
 
 # configs
 *config               1
