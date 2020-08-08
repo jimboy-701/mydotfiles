@@ -70,6 +70,9 @@ alias pwsh='clear; pwsh-preview -NoLogo'
 alias powershell='clear; pwsh-preview -NoLogo'
 alias vi=/usr/bin/nano
 
+# Remove exec permissions from all files within the current & sub directories
+rmexec() { fd --hidden --type x --glob '*.?*' -x chmod -v a-x }
+
 # Auto-list directory contents on cd
 auto-ls () { ls --color --group-directories-first --classify; }
 chpwd_functions=( auto-ls $chpwd_functions )

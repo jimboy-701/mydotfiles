@@ -93,7 +93,6 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .json                 38;5;178
 .jsonl                38;5;178
 .ndjson               38;5;178
-.msg                  38;5;178
 .pgn                  38;5;178
 .rss                  38;5;178
 .xml                  38;5;178
@@ -357,7 +356,6 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .html                 38;5;125;1
 .jhtm                 38;5;125;1
 .mht                  38;5;125;1
-.eml                  38;5;125;1
 .mustache             38;5;125;1
 
 # java
