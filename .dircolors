@@ -118,33 +118,45 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .epub                 38;5;141
 
 # Microsoft Word (Sky Blue)
-.docm                 38;5;111
-.doc                  38;5;111
-.docx                 38;5;111
+.doc                  38;5;111  # Microsoft Word Document
+.docm                 38;5;111  # Word Open XML Macro-Enabled Document
+.docx                 38;5;111  # Microsoft Word XML Document
+.xps                  38;5;111  # XML Paper Specification File
 .wps                  38;5;111  # Microsoft Works
+.wri                  38;5;111  # Microsoft Write Document
 .rtf                  38;5;111  # Rich Text Format
 
 
-# Microsoft Powerpoint
-.pps                  38;5;166 (Orange)
-.ppt                  38;5;166
-.pptx                 38;5;166
-.ppts                 38;5;166
-.pptxm                38;5;166
-.pptsm                38;5;166
+# Microsoft Powerpoint (Orange)
+.pps                  38;5;166  # PowerPoint Slide Show
+.ppt                  38;5;166  # PowerPoint Presentation
+.pptx                 38;5;166  # PowerPoint Open XML Presentation
+.ppsx                 38;5;166  # PowerPoint Open XML Slide Show
+.pptm                 38;5;166  # PowerPoint Open XML Macro-Enabled Presentation
 
 # Microsoft Excel
-.xls                  38;5;112
-.xlsx                 38;5;112
-.xlsxm                38;5;112
-.xltm                 38;5;73;4
-.xltx                 38;5;73
+.xls                  38;5;112  # Excel Spreadsheet
+.xlsx                 38;5;112  # Microsoft Excel Open XML Spreadsheet
+.xlxm                 38;5;112  # Excel Open XML Macro-Enabled Spreadsheet
+
+# Microsoft Access
+.accdb                38;5;112  # Access 2007 Database File
+.mdb                  38;5;112  # Microsoft Access Database
+
+# Microsoft Outlook
+.msg                  38;5;112  # Outlook Mail Message
+.eml                  38;5;112  # E-Mail Message
+.pst                  38;5;112  # Outlook Personal Information Store File
+.mime                 38;5;112  # Multi-Purpose Internet Mail Extension
 
 # Open Office Documents
-.odb                  38;5;111
-.odt                  38;5;111
-.odp                  38;5;166
-.ods                  38;5;112
+.odt                  38;5;111  # OpenDocument Text Document
+.odb                  38;5;111  # OpenDocument Database
+.odf                  38;5;111  # OpenDocument Formula
+.odg                  38;5;111  # OpenDocument Graphic File
+.odm                  38;5;111  # OpenDocument Master Document
+.odp                  38;5;166  # OpenDocument Presentation
+.ods                  38;5;112  # OpenDocument Spreadsheet
 
 # Text-based Spreadsheet (Mint Green)
 .csv                  38;5;78  # Comma Separated Values File
