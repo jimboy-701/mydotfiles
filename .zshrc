@@ -95,8 +95,8 @@ alias lt="exa -T"
 alias ..="cd .."
 alias ds="dirs -v"
 
-alias cp="cp -iv"
-alias mv="mv -iv"
+alias cp="cp -v"
+alias mv="mv -v"
 alias rm="rm -iv"
 
 source /usr/share/doc/pkgfile/command-not-found.zsh

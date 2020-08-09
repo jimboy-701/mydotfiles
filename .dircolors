@@ -545,7 +545,7 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .PFA                  38;5;66
 .pfa                  38;5;66
 
-# standard compressed archives  (regular red)
+# standard compressed archives (regular red)
 .7z                   38;5;160
 .s7z                  38;5;160
 .zip                  38;5;160
@@ -581,15 +581,15 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .z                    38;5;160
 .zz                   38;5;160
 
-# packaged apps (yellow orange)
-.zst                  38;5;160
-.xz                   38;5;160
-.apk                  38;5;160
-.deb                  38;5;160
-.rpm                  38;5;160
-.jar                  38;5;160
-.cab                  38;5;160
-.dmg                  38;5;160
+# packaged apps ((regular red underlined)
+.zst                  38;5;160;4
+.xz                   38;5;160;4
+.apk                  38;5;160;4
+.deb                  38;5;160;4
+.rpm                  38;5;160;4
+.jar                  38;5;160;4
+.cab                  38;5;160;4
+.dmg                  38;5;160;4
 
 # Partition Images (deep orange)
 .iso                  38;5;166

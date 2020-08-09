@@ -38,6 +38,9 @@
         }
     ],
     "git.autofetch": true,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderLineHighlight": "all"
 
 }
