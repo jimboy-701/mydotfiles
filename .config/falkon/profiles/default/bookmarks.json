@@ -658,7 +658,7 @@
                     "name": "dotfiles/.zshrc at master · BrodieRobertson/dotfiles",
                     "type": "url",
                     "url": "https://github.com/BrodieRobertson/dotfiles/blob/master/.zshrc",
-                    "visit_count": 1
+                    "visit_count": 2
                 },
                 {
                     "description": "",
@@ -690,6 +690,14 @@
                     "name": "Byobu for Terminal Management on Ubuntu – Stephen's Thoughts",
                     "type": "url",
                     "url": "https://stephenreescarter.net/byobu-for-terminal-management-on-ubuntu/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "altdesktop/playerctl: 🎧 mpris command-line controller and library for vlc, audacious, bmp, cmus, spotify and others.",
+                    "type": "url",
+                    "url": "https://github.com/altdesktop/playerctl",
                     "visit_count": 0
                 }
             ],
