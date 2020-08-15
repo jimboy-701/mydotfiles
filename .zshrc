@@ -6,6 +6,9 @@ zstyle :compinstall filename '/home/jma/.zshrc'
 autoload -Uz compinit; compinit
 autoload -Uz add-zsh-hook
 
+# https://wiki.archlinux.org/index.php/Umask
+# This setting gives read and write permissions for new files, and read, write and execute
+# permissions for new folders
 umask 077
 
 # http://zsh.sourceforge.net/Intro/intro_16.html
@@ -19,6 +22,7 @@ setopt +o nomatch               # See aliases section "lh, lhl" below
 setopt interactivecomments
 setopt rcquotes
 setopt sunkeyboardhack
+unsetopt caseglob
 
 # https://pissedoffadmins.com/os/my-zshrc.html
 setopt APPEND_HISTORY           # append rather than overwrite history file.
@@ -34,10 +38,6 @@ setopt PUSHD_IGNORE_DUPS
 setopt SHARE_HISTORY            # share history between sessions
 setopt NO_CASE_GLOB             # case insensitive globbing
 setopt NUMERIC_GLOB_SORT        # numeric glob sort
-unsetopt caseglob
-
-# binaries installed by python pip (for working with vscode)
-export PATH=/home/jma/.local/bin:$PATH
 
 DIRSTACKFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/dirs"
 if [[ -f "$DIRSTACKFILE" ]] && (( ${#dirstack} == 0 )); then
@@ -57,19 +57,6 @@ setopt PUSHD_IGNORE_DUPS
 ## This reverts the +/- operators.
 setopt PUSHD_MINUS
 
-# Set some preferences
-export EDITOR=/user/bin/nano
-export VISUAL=/usr/bin/nano
-export PAGER=/usr/bin/less
-export PYTHONSTARTUP=".pythonrc.py"
-
-alias update="source ~/.zshrc"
-
-alias python='clear; python -i -q'
-alias pwsh='clear; pwsh-preview -NoLogo'
-alias powershell='clear; pwsh-preview -NoLogo'
-alias vi=/usr/bin/nano
-
 # Remove exec permissions from all files within the current & sub directories
 rmexec() { fd --hidden --type x --glob '*.?*' -x chmod -v a-x }
 
@@ -77,11 +64,18 @@ rmexec() { fd --hidden --type x --glob '*.?*' -x chmod -v a-x }
 auto-ls () { ls --color --group-directories-first --classify; }
 chpwd_functions=( auto-ls $chpwd_functions )
 
+alias python='clear; python -i -q'
+alias pwsh='clear; pwsh-preview -NoLogo'
+alias powershell='clear; pwsh-preview -NoLogo'
+
 # Let's be lazy as possible when listing directories
 alias l="ls --color --classify --group-directories-first"
 alias ll="ls -l --color --classify --group-directories-first"
 alias la="ls -a --color --classify --group-directories-first"
 alias lla="ls -la --color --classify --group-directories-first"
+
+alias lss="ls -sh --color --classify --group-directories-first"
+alias lsh="ls -ash --color --classify --group-directories-first"
 
 # How to get rid of “zsh: no matches found: .?*”
 # https://unix.stackexchange.com/questions/310540/how-to-get-rid-of-no-match-found-when-running-rm
@@ -99,15 +93,41 @@ alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -iv"
 
+alias df="df -h"
+alias lsblk="lsblk -f"
+
+# Query pacman for packages for Orphans
+alias opkgs="pacman -Qdt"
+
+# Get information on installed package
+alias ipkgs="pacman -Qi"
+
+# Uninstall only the package leaving it's dependencies
+alias rpkgs="sudo pacman -Rn"
+
+# Uninstall a package and its dependencies
+alias rmpkgs="sudo pacman -Rns"
+
+# To view the dependency tree of a package:
+alias trpkgs="pactree -c"
+
+# Query pacman with fzf
+alias spkgs="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+
+# If you want to add package file list in preview - may be a bit slower updating preview window (make sure you run pacman -Fy at least
+# once before invocation to sync the pacman file database)
+# Query below seems broken
+alias fpkgs="pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S"
+
+# Push updated .zshrc settings to enviroment
+alias update="source ~/.zshrc"
+
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # Initialize the Zsh plugin manager Antibody (replacement for the slower Antigen)
 # https://getantibody.github.io/
 source <(antibody init)
 antibody bundle < ~/.zsh/zsh_plugins.txt
-
-export YSU_MESSAGE_POSITION="after"
-export STARSHIP_CONFIG="~/.starship.toml"
 
 # User Antibody to load oh-my-zsh plugins
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins
@@ -119,26 +139,10 @@ bindkey '^[[B' history-substring-search-down
 bindkey '^[[H' beginning-of-line                               # Home key
 bindkey '^[[F' end-of-line                                     # End key
 
-
 # Load fzf command-line fuzzy finder
 # https://github.com/junegunn/fzf
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
-export FZF_DEFAULT_OPS="--extended"
 
-# Over-ride fzf's default search command and use fd-search
-# https://github.com/sharkdp/fd
-export FZF_DEFAULT_COMMAND="fd --type f"
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-
-# Color man pages
-export LESS_TERMCAP_mb=$'\E[01;32m'
-export LESS_TERMCAP_md=$'\E[01;32m'
-export LESS_TERMCAP_me=$'\E[0m'
-export LESS_TERMCAP_se=$'\E[0m'
-export LESS_TERMCAP_so=$'\E[01;47;34m'
-export LESS_TERMCAP_ue=$'\E[0m'
-export LESS_TERMCAP_us=$'\E[01;36m'
-export LESS=-r
-
+# Colored directory listings
 eval $(dircolors -b $HOME/.dircolors)

@@ -4,8 +4,8 @@ ShowPath=true
 ShowStatusBar=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.config/powershell/starship.toml,file:$HOME/.zshrc,file:$HOME/sambashare.txt,file:$HOME/git-ssh-vscode.txt,file:$HOME/Dropbox/Kungfu/bash_tricks.txt,file:$HOME/smb.conf.default,file:$HOME/yabause-kronos-build.log,file:$HOME/yadm.txt,file:$HOME/.ssh/id_rsa.pub,file:$HOME/.starship.toml,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/.zsh/zsh_plugins.txt,file:$HOME/.config/neofetch/config.conf,file:$HOME/Dropbox/Kungfu/fzf.txt,file:$HOME/.dircolors,file:$HOME/.pythonrc.py
-Recent URLs[$e]=file:$HOME/Dropbox/Kungfu/
+Recent Files[$e]=file:$HOME/.zshenv,file:///var/log/samba/log.smbd,file:$HOME/.tmux.conf,file:$HOME/.xprofile,file:$HOME/Dropbox/Kungfu/pacman.txt,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/git-ssh-vscode.txt,file:$HOME/Dropbox/PythonCodeNotes2.txt,file:$HOME/.zshrc,file:$HOME/.dircolors,file:$HOME/.config/yay/config.json,file:$HOME/Dropbox/System.Configs/dir_colors_mod,file:$HOME/.gitconfig,file:///etc/samba/smb.conf,file:$HOME/.ssh/id_rsa.pub
+Recent URLs[$e]=file:///var/log/samba/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -30,7 +30,7 @@ Overwrite Mode=false
 PageUp/PageDown Moves Cursor=true
 Remove Spaces=2
 ReplaceTabsDyn=true
-Show Spaces=0
+Show Spaces=1
 Show Tabs=true
 Smart Home=true
 Swap Directory=
@@ -47,7 +47,7 @@ Encoding Prober Type=1
 Fallback Encoding=ISO 8859-15
 
 [KTextEditor Renderer]
-Animate Bracket Matching=false
+Animate Bracket Matching=true
 Schema=Normal
 Show Indentation Lines=true
 Show Whole Bracket Expression=false
@@ -85,7 +85,7 @@ Scroll Bar MiniMap=false
 Scroll Bar Preview=true
 Scroll Past End=false
 Search/Replace Flags=140
-Show Line Count=false
+Show Line Count=true
 Show Scrollbars=1
 Show Word Count=false
 Smart Copy Cut=false
@@ -101,29 +101,29 @@ Word Completion Remove Tail=true
 Search History=.py,.r,crop_mode,source,42,rar,xlsxm,zst,txt
 
 [MainWindow]
-Height 1080=435
-State=AAAA/wAAAAD9AAAAAAAAA+MAAAGVAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 1080=387
+State=AAAA/wAAAAD9AAAAAAAABGwAAAFlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=995
+Width 1920=1132
 
 [Recent Files]
-File1[$e]=$HOME/yadm.txt
-File10[$e]=$HOME/.vscode/argv.json
-File2[$e]=$HOME/.config/reicast/mappings/evdev_Performance Designed Products Wireless Controller for PS3.cfg
-File3[$e]=$HOME/.config/reicast/emu.cfg
-File4[$e]=$HOME/smb.conf.default
-File5[$e]=$HOME/sambashare.txt
-File6[$e]=$HOME/Dropbox/Kungfu/bash_tricks.txt
-File7[$e]=$HOME/git-ssh-vscode.txt
-File8[$e]=$HOME/.zshrc
-File9[$e]=$HOME/.vscode/settings.json
-Name1[$e]=yadm.txt
-Name10[$e]=argv.json
-Name2[$e]=evdev_Performance Designed Products Wireless Controller for PS3.cfg
-Name3[$e]=emu.cfg
-Name4[$e]=smb.conf.default
-Name5[$e]=sambashare.txt
-Name6[$e]=bash_tricks.txt
-Name7[$e]=git-ssh-vscode.txt
-Name8[$e]=.zshrc
-Name9[$e]=settings.json
+File1[$e]=$HOME/.config/plasmashellrc
+File10[$e]=$HOME/.config/desmume/config.cfg
+File2[$e]=$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
+File3[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
+File4[$e]=$HOME/.mplayer/config
+File5[$e]=$HOME/.nano/filepos_history
+File6[$e]=$HOME/.config/powershell/starship.toml
+File7[$e]=$HOME/.config/powershell/powershell.config.json
+File8[$e]=$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
+File9[$e]=$HOME/.config/desmume/config
+Name1[$e]=plasmashellrc
+Name10[$e]=config.cfg
+Name2[$e]=plasma-org.kde.plasma.desktop-appletsrc
+Name3[$e]=.directory
+Name4[$e]=config
+Name5[$e]=filepos_history
+Name6[$e]=starship.toml
+Name7[$e]=powershell.config.json
+Name8[$e]=Microsoft.PowerShell_profile.ps1
+Name9[$e]=config

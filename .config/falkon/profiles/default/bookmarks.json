@@ -1,0 +1,704 @@
+{
+    "roots": {
+        "bookmark_bar": {
+            "children": [
+            ],
+            "description": "Bookmarks located in Bookmarks Toolbar",
+            "expanded": true,
+            "expanded_sidebar": true,
+            "name": "Bookmarks Toolbar",
+            "type": "folder"
+        },
+        "bookmark_menu": {
+            "children": [
+            ],
+            "description": "Bookmarks located in Bookmarks Menu",
+            "expanded": true,
+            "expanded_sidebar": true,
+            "name": "Bookmarks Menu",
+            "type": "folder"
+        },
+        "other": {
+            "children": [
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Convert (Export) SWIM (Split WIM) to WIM – Final Thoughts from IT",
+                    "type": "url",
+                    "url": "https://finalthought.org/2016/11/14/convert-export-swim-split-wim-to-wim/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Using Tmux and Tmuxinator",
+                    "type": "url",
+                    "url": "http://aokolish.me/blog/2013/02/12/using-tmux-and-tmuxinator/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - denysdovhan/spaceship-prompt: A Zsh prompt for Astronauts",
+                    "type": "url",
+                    "url": "https://github.com/denysdovhan/spaceship-prompt",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Intel HD Graphics 530 Specs | TechPowerUp GPU Database",
+                    "type": "url",
+                    "url": "https://www.techpowerup.com/gpu-specs/hd-graphics-530.c2789",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "zsh-users · GitHub",
+                    "type": "url",
+                    "url": "https://github.com/zsh-users",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Compatibility · GetAntibody",
+                    "type": "url",
+                    "url": "https://getantibody.github.io/compat/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "ohmyzsh/plugins at master · ohmyzsh/ohmyzsh · GitHub",
+                    "type": "url",
+                    "url": "https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins",
+                    "visit_count": 1
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - junegunn/fzf: A command-line fuzzy finder",
+                    "type": "url",
+                    "url": "https://github.com/junegunn/fzf",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Zsh - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Zsh#History_search",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Paper Mario 64 HD Project - Beta Public Release & Guide - YouTube",
+                    "type": "url",
+                    "url": "https://www.youtube.com/watch?time_continue=7&v=0ugw0BVb0mU&feature=emb_logo",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - djui/alias-tips: An oh-my-zsh plugin to help remembering those aliases you defined once",
+                    "type": "url",
+                    "url": "https://github.com/djui/alias-tips",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Download Kite for Free - AI Autocomplete for Python - IDE Plugin",
+                    "type": "url",
+                    "url": "https://www.kite.com/download/?utm_medium=referral&utm_source=youtube&utm_campaign=TechGuyWeb&utm_content=python_vscode",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Setting Up VSCode For Python Programming - YouTube",
+                    "type": "url",
+                    "url": "https://www.youtube.com/watch?v=W--_EOzdTHk",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - trapd00r/LS_COLORS: A collection of LS_COLORS definitions; needs your contribution!",
+                    "type": "url",
+                    "url": "https://github.com/trapd00r/LS_COLORS",
+                    "visit_count": 1
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - trapd00r/zsh-syntax-highlighting-filetypes: zsh syntax highlighting with dircolors in realtime",
+                    "type": "url",
+                    "url": "https://github.com/trapd00r/zsh-syntax-highlighting-filetypes",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Restore Terminals - Visual Studio Marketplace",
+                    "type": "url",
+                    "url": "https://marketplace.visualstudio.com/items?itemName=EthanSK.restore-terminals",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Largest LS_COLORS collection on the interweb | http/japh.se",
+                    "type": "url",
+                    "url": "https://www.japh.se/dev/ls_colors/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Configuring LS_COLORS",
+                    "type": "url",
+                    "url": "http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Chmod Calculator: Calculate Linux File Permissions",
+                    "type": "url",
+                    "url": "https://linuxhandbook.com/chmod-calculator/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - ogham/exa: A modern version of ‘ls’.",
+                    "type": "url",
+                    "url": "https://github.com/ogham/exa",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "puNES Emulator - Page 52 - nesdev.com",
+                    "type": "url",
+                    "url": "https://forums.nesdev.com/viewtopic.php?f=3&t=6928&start=765",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - vinifmor/bauh: Graphical user interface for managing your Linux applications. Supports AppImage, Arch (repositories/AUR), Flatpak, Snap and native Web applications.",
+                    "type": "url",
+                    "url": "https://github.com/vinifmor/bauh",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "tip: disable root and gain su/sudo with no password / GNU/Linux Discussion / Arch Linux Forums",
+                    "type": "url",
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=7534",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - sharkdp/fd: A simple, fast and user-friendly alternative to 'find'",
+                    "type": "url",
+                    "url": "https://github.com/sharkdp/fd",
+                    "visit_count": 1
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to Change Colors on LS in Bash – Linux Hint",
+                    "type": "url",
+                    "url": "https://linuxhint.com/ls_colors_bash/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Castlevania 2: Revamped? : castlevania",
+                    "type": "url",
+                    "url": "https://www.reddit.com/r/castlevania/comments/74w74v/castlevania_2_revamped/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "chmod 777 or 755? Learn to use chmod Command with Examples",
+                    "type": "url",
+                    "url": "https://linuxhandbook.com/chmod-command/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - MichaelAquilina/zsh-you-should-use: 📎 ZSH plugin that reminds you to use existing aliases for commands you just typed",
+                    "type": "url",
+                    "url": "https://github.com/MichaelAquilina/zsh-you-should-use",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "The three different N64 rom formats explained for dummies and which you should use (TL;DR: Use Big Endian/.z64) : emulation",
+                    "type": "url",
+                    "url": "https://www.reddit.com/r/emulation/comments/7hrvzp/the_three_different_n64_rom_formats_explained_for/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "SNES MSU-1 Guide - RetroPie Forum",
+                    "type": "url",
+                    "url": "https://retropie.org.uk/forum/topic/13144/snes-msu-1-guide",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Downloads / Nintendo Wii Backup File System Roms (WBFS) - RomUniverse",
+                    "type": "url",
+                    "url": "https://www.romuniverse.com/download/category/34/wii-backup-file-system-roms-wbfs/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "uCON64 - ReadMe",
+                    "type": "url",
+                    "url": "https://ucon64.sourceforge.io/ucon64/readme.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Battle of the Bits",
+                    "type": "url",
+                    "url": "https://battleofthebits.org/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Grids -",
+                    "type": "url",
+                    "url": "https://www.midi.org/articles",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GitHub - Zren/material-decoration: Material-ish window decoration theme for KWin, with LIM, based on zzag's original design.",
+                    "type": "url",
+                    "url": "https://github.com/Zren/material-decoration",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Create PowerShell profile - WindowsPowerShell folder path Microsoft.PowerShellISE_profile",
+                    "type": "url",
+                    "url": "https://www.computerperformance.co.uk/powershell/profile-ps1/",
+                    "visit_count": 1
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Windows PowerShell Module Directory",
+                    "type": "url",
+                    "url": "https://www.computerperformance.co.uk/powershell/module-directory/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "about_PowerShell_Config - PowerShell | Microsoft Docs",
+                    "type": "url",
+                    "url": "https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_config?view=powershell-7",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Starship: Cross-Shell Prompt",
+                    "type": "url",
+                    "url": "https://starship.rs/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Powershell Archives - Computer Performance",
+                    "type": "url",
+                    "url": "https://www.computerperformance.co.uk/powershell/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Configuration | Starship",
+                    "type": "url",
+                    "url": "https://starship.rs/config/#prompt",
+                    "visit_count": 1
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Ultimate List of Free Soundfonts - TriSamples",
+                    "type": "url",
+                    "url": "https://trisamples.com/free-soundfonts/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "fluidvolt's soundfonts",
+                    "type": "url",
+                    "url": "https://sites.google.com/site/fluidvolt/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "SNES Dolby Surround : miniSNESmods",
+                    "type": "url",
+                    "url": "https://www.reddit.com/r/miniSNESmods/comments/hyajts/snes_dolby_surround/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Emulation General Wiki",
+                    "type": "url",
+                    "url": "https://emulation.gametechwiki.com/index.php/Main_Page",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "my zshrc – PissedOffAdmins",
+                    "type": "url",
+                    "url": "https://pissedoffadmins.com/os/my-zshrc.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Create a new Gist",
+                    "type": "url",
+                    "url": "https://gist.github.com/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "git rm - How can I delete a file from a Git repository? - Stack Overflow",
+                    "type": "url",
+                    "url": "https://stackoverflow.com/questions/2047465/how-can-i-delete-a-file-from-a-git-repository",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "HTML Color Picker - Color Hex Color Codes",
+                    "type": "url",
+                    "url": "https://www.colorcodehex.com/html-color-picker.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "MGD file - How do I open a .mgd file? [Step-by-step] | FileSuffix.com",
+                    "type": "url",
+                    "url": "https://www.filesuffix.com/en/extension/mgd",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "FileInfo - The File Information Database",
+                    "type": "url",
+                    "url": "https://fileinfo.com/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "command line - How do I make an entire directory executable? - Ask Ubuntu",
+                    "type": "url",
+                    "url": "https://askubuntu.com/questions/546211/how-do-i-make-an-entire-directory-executable",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "incron - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Incron",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Getting Started - yadm",
+                    "type": "url",
+                    "url": "https://yadm.io/docs/getting_started#",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "zsh - How to get rid of \"No match found\" when running \"rm *\" - Unix & Linux Stack Exchange",
+                    "type": "url",
+                    "url": "https://unix.stackexchange.com/questions/310540/how-to-get-rid-of-no-match-found-when-running-rm",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "zsh - \"no matches found\" error when using youtube-dl - Super User",
+                    "type": "url",
+                    "url": "https://superuser.com/questions/1551915/no-matches-found-error-when-using-youtube-dl",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Unix and Linux: Redirect Error Output To null Command - nixCraft",
+                    "type": "url",
+                    "url": "https://www.cyberciti.biz/faq/unix-linux-redirect-error-output-to-null-command/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Gentoo Python Guide — Gentoo Python Guide documentation",
+                    "type": "url",
+                    "url": "https://dev.gentoo.org/~mgorny/python-guide/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Michał Górny – Retroactively fixing the world",
+                    "type": "url",
+                    "url": "https://blogs.gentoo.org/mgorny/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "christgau/wsdd: A Web Service Discovery host daemon.",
+                    "type": "url",
+                    "url": "https://github.com/christgau/wsdd",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "File Permissions in Linux/Unix with Example",
+                    "type": "url",
+                    "url": "https://www.guru99.com/file-permissions.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to change directory permissions in Linux | Pluralsight",
+                    "type": "url",
+                    "url": "https://www.pluralsight.com/blog/it-ops/linux-file-permissions",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How can I add an empty directory to a Git repository? - Stack Overflow",
+                    "type": "url",
+                    "url": "https://stackoverflow.com/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Enable Samba usershares and kdenetwork-filesharing on Fedora 23 - #> opsech.io",
+                    "type": "url",
+                    "url": "https://opsech.io/posts/2016/Apr/06/sharing-files-with-kde-and-samba.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "permissions - Why can't I get to a shared folder from Windows - Ask Ubuntu",
+                    "type": "url",
+                    "url": "https://askubuntu.com/questions/229870/why-cant-i-get-to-a-shared-folder-from-windows",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Exiting/Terminating Python scripts (Simple Examples) - Like Geeks",
+                    "type": "url",
+                    "url": "https://likegeeks.com/terminating-python-scripts/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "CoenraadS/Bracket-Pair-Colorizer-2: Bracket Colorizer Extension for VSCode",
+                    "type": "url",
+                    "url": "https://github.com/CoenraadS/Bracket-Pair-Colorizer-2",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "LITCAVE",
+                    "type": "url",
+                    "url": "http://litcave.rudi.ir/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "linux - Set alias with quotes and double quotes in command - Stack Overflow",
+                    "type": "url",
+                    "url": "https://stackoverflow.com/questions/14123522/set-alias-with-quotes-and-double-quotes-in-command",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "command line - /usr/bin/env: ‘python3\\r’: No such file or directory - Ask Ubuntu",
+                    "type": "url",
+                    "url": "https://askubuntu.com/questions/896860/usr-bin-env-python3-r-no-such-file-or-directory",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "DNS with Pi-Hole + DNSCrypt",
+                    "type": "url",
+                    "url": "https://blog.sean-wright.com/dns-with-pi-hole-dnscrypt/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to Rename, Remove and Alter Files in Git with Command Line?",
+                    "type": "url",
+                    "url": "https://www.toolsqa.com/git/alter-files-in-git/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "HD Packs :: Mesen Documentation",
+                    "type": "url",
+                    "url": "https://www.mesen.ca/docs/hdpacks.html#installing-hd-packs",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "h2643's GFX Pack - V4.2 (updated 30.06.2016) - Super Mario Bros. X Forums",
+                    "type": "url",
+                    "url": "https://www.supermariobrosx.org/forums/viewtopic.php?f=31&t=694",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "HD Pack's Mesen - nesdev.com",
+                    "type": "url",
+                    "url": "https://forums.nesdev.com/viewtopic.php?f=21&t=17110",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Downloads - EmuMovies",
+                    "type": "url",
+                    "url": "https://emumovies.com/files/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "danboid/shufti: The persistent image viewer",
+                    "type": "url",
+                    "url": "https://github.com/danboid/shufti",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "BrodieRobertson/dotfiles: Various configuration files for programs that I use",
+                    "type": "url",
+                    "url": "https://github.com/BrodieRobertson/dotfiles",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How I Over-Engineered My Dotfiles",
+                    "type": "url",
+                    "url": "https://bananamafia.dev/post/dotfiles/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "dotfiles/.zshrc at master · BrodieRobertson/dotfiles",
+                    "type": "url",
+                    "url": "https://github.com/BrodieRobertson/dotfiles/blob/master/.zshrc",
+                    "visit_count": 1
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "dotfiles/.zshenv at master · BrodieRobertson/dotfiles",
+                    "type": "url",
+                    "url": "https://github.com/BrodieRobertson/dotfiles/blob/master/.zshenv",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Learn Byobu while listening to Mozart - YouTube",
+                    "type": "url",
+                    "url": "https://www.youtube.com/watch?v=NawuGmcvKus",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "tmux - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Tmux",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Byobu for Terminal Management on Ubuntu – Stephen's Thoughts",
+                    "type": "url",
+                    "url": "https://stephenreescarter.net/byobu-for-terminal-management-on-ubuntu/",
+                    "visit_count": 0
+                }
+            ],
+            "description": "All other bookmarks",
+            "expanded": true,
+            "expanded_sidebar": true,
+            "name": "Unsorted Bookmarks",
+            "type": "folder"
+        }
+    },
+    "version": 1
+}
