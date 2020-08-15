@@ -1,7 +1,7 @@
 
 [audgui]
 filebrowser_win=606,285,719,480
-filesel_path=/home/jma/Downloads/Yoshi's Story (EMU).zophar
+filesel_path=/home/jma/Downloads/Legend of Zelda, The - Ocarina of Time (EMU).zophar
 info_win=215,480,656,423
 
 [gtkui]
@@ -13,12 +13,13 @@ player_y=285
 item_count=0
 
 [skins]
-equalizer_x=987
-equalizer_y=262
-player_x=987
-player_y=146
-playlist_x=1262
-playlist_y=146
+equalizer_x=1114
+equalizer_y=134
+player_x=1114
+player_y=18
+playlist_visible=TRUE
+playlist_x=1389
+playlist_y=18
 skin=/usr/share/audacious/Skins/Refugee
 twoway_scroll=TRUE
 

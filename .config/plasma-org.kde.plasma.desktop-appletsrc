@@ -27,7 +27,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=750
 iconSize=3
-positions=3,19,desktop:/brave-browser.desktop,0,6,desktop:/org.kde.falkon.desktop,0,7,desktop:/visual-studio-code.desktop,2,0,desktop:/transmission-qt.desktop,0,10
+positions=3,19,desktop:/brave-browser.desktop,0,6,desktop:/org.kde.falkon.desktop,0,7,desktop:/transmission-qt.desktop,0,10,desktop:/visual-studio-code.desktop,2,0
 previewPlugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail
 sortMode=-1
 
