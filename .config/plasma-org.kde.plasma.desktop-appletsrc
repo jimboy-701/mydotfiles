@@ -27,7 +27,7 @@ DialogWidth=720
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=750
 iconSize=3
-positions=3,19,desktop:/brave-browser.desktop,0,6,desktop:/org.kde.falkon.desktop,0,7,desktop:/transmission-qt.desktop,0,10,desktop:/visual-studio-code.desktop,2,0
+positions=3,19,desktop:/brave-browser.desktop,0,6,desktop:/org.kde.falkon.desktop,0,7,desktop:/transmission-qt.desktop,0,10,desktop:/WACUP.desktop,0,1,desktop:/AkelPad.desktop,0,2,desktop:/visual-studio-code.desktop,2,0
 previewPlugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail
 sortMode=-1
 
@@ -190,4 +190,4 @@ knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/brave-browser.desktop,0,desktop:/transmission-qt.desktop,0,file:///home/jma/Desktop/neofetch.desktop,0,desktop:/visual-studio-code.desktop,0,desktop:/org.kde.falkon.desktop,0
+screenMapping=desktop:/brave-browser.desktop,0,desktop:/AkelPad.desktop,0,desktop:/transmission-qt.desktop,0,file:///home/jma/Desktop/neofetch.desktop,0,desktop:/visual-studio-code.desktop,0,desktop:/org.kde.falkon.desktop,0,desktop:/WACUP.desktop,0
