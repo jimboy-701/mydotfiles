@@ -14,6 +14,7 @@ download:
   multithreaded: true
   multithreaded_client: aria2
 gems:
+- web
 - arch
 - appimage
 - flatpak

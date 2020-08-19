@@ -699,6 +699,38 @@
                     "type": "url",
                     "url": "https://github.com/altdesktop/playerctl",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "ePSXe | Next Generation Emulation",
+                    "type": "url",
+                    "url": "https://www.ngemu.com/forums/epsxe.7/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "AUR (en) - grub2-editor-frameworks-git",
+                    "type": "url",
+                    "url": "https://aur.archlinux.org/packages/grub2-editor-frameworks-git/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to use GPG?(Trying to install an AUR package) : archlinux",
+                    "type": "url",
+                    "url": "https://www.reddit.com/r/archlinux/comments/i7oys3/how_to_use_gpgtrying_to_install_an_aur_package/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "gpg: keyserver receive failed: General error [solved] / Newbie Corner / Arch Linux Forums",
+                    "type": "url",
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=257527",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
