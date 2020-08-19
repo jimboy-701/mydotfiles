@@ -4,8 +4,8 @@ ShowPath=true
 ShowStatusBar=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/.zshenv,file:///var/log/samba/log.smbd,file:$HOME/.tmux.conf,file:$HOME/.xprofile,file:$HOME/Dropbox/Kungfu/pacman.txt,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/git-ssh-vscode.txt,file:$HOME/Dropbox/PythonCodeNotes2.txt,file:$HOME/.zshrc,file:$HOME/.dircolors,file:$HOME/.config/yay/config.json,file:$HOME/Dropbox/System.Configs/dir_colors_mod,file:$HOME/.gitconfig,file:///etc/samba/smb.conf,file:$HOME/.ssh/id_rsa.pub
-Recent URLs[$e]=file:///var/log/samba/
+Recent Files[$e]=file:$HOME/Dropbox/Linux.Howtos/Snapd.txt,file:$HOME/git-ssh-vscode.txt,file:$HOME/.dircolors,file:$HOME/.zshrc,file:///var/log/samba/log.smbd,file:$HOME/.tmux.conf,file:$HOME/.xprofile,file:$HOME/Dropbox/Kungfu/pacman.txt,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/Dropbox/PythonCodeNotes2.txt,file:$HOME/.config/yay/config.json,file:$HOME/Dropbox/System.Configs/dir_colors_mod,file:$HOME/.gitconfig,file:///etc/samba/smb.conf,file:$HOME/.ssh/id_rsa.pub
+Recent URLs[$e]=file:$HOME/Dropbox/Linux.Howtos/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -98,32 +98,32 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=.py,.r,crop_mode,source,42,rar,xlsxm,zst,txt
+Search History=lsof,.py,.r,crop_mode,source,42,rar,xlsxm,zst,txt
 
 [MainWindow]
 Height 1080=387
-State=AAAA/wAAAAD9AAAAAAAABGwAAAFlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA+cAAAFlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1132
+Width 1920=999
 
 [Recent Files]
-File1[$e]=$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
-File10[$e]=$HOME/Dropbox/Kungfu/git.txt
-File2[$e]=$HOME/.local/share/dolphin/view_properties/global/.directory
-File3[$e]=$HOME/.mplayer/config
-File4[$e]=$HOME/.nano/filepos_history
-File5[$e]=$HOME/.config/powershell/starship.toml
-File6[$e]=$HOME/.config/powershell/powershell.config.json
-File7[$e]=$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
-File8[$e]=$HOME/.config/desmume/config
-File9[$e]=$HOME/.config/desmume/config.cfg
-Name1[$e]=plasma-org.kde.plasma.desktop-appletsrc
-Name10[$e]=git.txt
-Name2[$e]=.directory
-Name3[$e]=config
-Name4[$e]=filepos_history
-Name5[$e]=starship.toml
-Name6[$e]=powershell.config.json
-Name7[$e]=Microsoft.PowerShell_profile.ps1
-Name8[$e]=config
-Name9[$e]=config.cfg
+File1[$e]=$HOME/Dropbox/_Downloads/Archlinux.Ultimate.Install.Scripts/fifo
+File10[$e]=$HOME/.gitconfig
+File2[$e]=$HOME/.config/bauh/arch.yml
+File3[$e]=$HOME/.config/bauh/config.yml
+File4[$e]=$HOME/.config/yay/config.json
+File5[$e]=$HOME/.config/bauh/arch/makepkg.conf
+File6[$e]=$HOME/Dropbox/Python.Projects/PyGI.Toolkit/gtk3-demo.py
+File7[$e]=$HOME/Dropbox/Python.Projects/PyGI.Toolkit/gtk3test.py
+File8[$e]=$HOME/Dropbox/Kungfu/git.txt
+File9[$e]=$HOME/.jd/license.txt
+Name1[$e]=fifo
+Name10[$e]=.gitconfig
+Name2[$e]=arch.yml
+Name3[$e]=config.yml
+Name4[$e]=config.json
+Name5[$e]=makepkg.conf
+Name6[$e]=gtk3-demo.py
+Name7[$e]=gtk3test.py
+Name8[$e]=git.txt
+Name9[$e]=license.txt

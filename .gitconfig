@@ -1,0 +1,30 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+
+name = jimboy-701
+email = blackchrome.996@gmail.com
+[creditial]
+	helper = cache --timeout=600
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+[color "branch"]
+  remote = yellow
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git://"]
+	insteadOf = https://
+[url "https://aur.archlinux.org/"]
+	insteadOf = https://aur.archlinux.org/
+	insteadOf = http://aur.archlinux.org/
+	insteadOf = git://aur.archlinux.org/
