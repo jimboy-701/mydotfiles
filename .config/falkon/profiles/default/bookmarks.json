@@ -731,6 +731,22 @@
                     "type": "url",
                     "url": "https://bbs.archlinux.org/viewtopic.php?id=257527",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Following instructions for installation seems to fail · Issue #125 · archzfs/archzfs",
+                    "type": "url",
+                    "url": "https://github.com/archzfs/archzfs/issues/125",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Git - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/git#Using_git-config",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
