@@ -747,6 +747,14 @@
                     "type": "url",
                     "url": "https://wiki.archlinux.org/index.php/git#Using_git-config",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Next Generation Emulation",
+                    "type": "url",
+                    "url": "https://www.ngemu.com/forums/#ps1-emulation.4",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",

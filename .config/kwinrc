@@ -18,7 +18,7 @@ Rows=2
 BorderActivate=7
 
 [Effect-PresentWindows]
-BorderActivateAll=6
+BorderActivateAll=5
 
 [Effect-Wobbly]
 AdvancedMode=true
@@ -27,6 +27,7 @@ Stiffness=6
 WobblynessLevel=2
 
 [ElectricBorders]
+Top=KRunner
 TopLeft=None
 
 [Plugins]
