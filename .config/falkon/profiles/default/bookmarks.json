@@ -779,6 +779,70 @@
                     "type": "url",
                     "url": "https://arcolinux.com/category/arcolinux/fixes/",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "[Solved] After VIrtualbox 6.1.12-4 (Linux) update VMs fail to start / Applications & Desktop Environments / Arch Linux Forums",
+                    "type": "url",
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=258118",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Unofficial user repositories - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Unofficial_user_repositories#valveaur",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "[SOLVED] error: key \"A6234074498E9CEE\" could not be looked up remotely / Pacman & Package Upgrade Issues / Arch Linux Forums",
+                    "type": "url",
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=193382",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Docker - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Docker",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Generating a new SSH key and adding it to the ssh-agent - GitHub Docs",
+                    "type": "url",
+                    "url": "https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Adding a new SSH key to your GitHub account - GitHub Docs",
+                    "type": "url",
+                    "url": "https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to avoid ssh from prompting key passphrase for passwordless logins – The Geek Diary",
+                    "type": "url",
+                    "url": "https://www.thegeekdiary.com/how-to-avoid-ssh-from-prompting-key-passphrase-for-passwordless-logins/",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Sync requests to re-login every 2 minutes. · Issue #92972 · microsoft/vscode",
+                    "type": "url",
+                    "url": "https://github.com/microsoft/vscode/issues/92972",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
