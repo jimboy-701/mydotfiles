@@ -89,7 +89,8 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .doc                  38;5;111  # Microsoft Word Document
 .docm                 38;5;111  # Word Open XML Macro-Enabled Document
 .docx                 38;5;111  # Microsoft Word XML Document
-.xps                  38;5;111  # XML Paper Specification File
+.xps                  38;5;111  # Microsoft XML Paper Specification File
+.oxps                 38;5;111  # Open XML Paper Specification format
 .wps                  38;5;111  # Microsoft Works
 .wri                  38;5;111  # Microsoft Write Document
 .rtf                  38;5;111  # Rich Text Format

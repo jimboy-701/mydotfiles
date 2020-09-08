@@ -10,3 +10,6 @@ SaveGeometryOnExit=false
 [MainWindow]
 State=AAAA/wAAAAD9AAAAAAAABGMAAAF+AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
+
+[Notification Messages]
+CloseAllEmptyTabs=true

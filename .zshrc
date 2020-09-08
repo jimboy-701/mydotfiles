@@ -15,8 +15,8 @@ umask 077
 # setopt autocd
 # setopt cdablevars
 setopt correct
-setopt correctall
-setopt globdots
+# setopt correctall
+# setopt globdots
 setopt extendedglob
 setopt +o nomatch               # See aliases section "lh, lhl" below
 setopt interactivecomments
@@ -87,6 +87,7 @@ alias dll="ls -ld --color --classify */"
 alias lt="exa -T"
 
 alias ..="cd .."
+alias ...="cd .. ; cd .."
 alias ds="dirs -v"
 
 alias cp="cp -v"

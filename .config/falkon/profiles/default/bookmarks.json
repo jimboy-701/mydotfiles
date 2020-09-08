@@ -843,6 +843,46 @@
                     "type": "url",
                     "url": "https://github.com/microsoft/vscode/issues/92972",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Arch Linux mkinitcpio: Possibly missing firmware for module",
+                    "type": "url",
+                    "url": "https://gist.github.com/imrvelj/c65cd5ca7f5505a65e59204f5a3f7a6d",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "[Solved] Kernel 5.8.0 - xhci_pci / [testing] Repo Forum / Arch Linux Forums",
+                    "type": "url",
+                    "url": "https://bbs.archlinux.org/viewtopic.php?id=257937",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Snap - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Snap",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Audit framework - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/Audit_framework",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "AppArmor - ArchWiki",
+                    "type": "url",
+                    "url": "https://wiki.archlinux.org/index.php/AppArmor#Speed-up_AppArmor_start_by_caching_profiles",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
