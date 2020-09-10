@@ -13,17 +13,17 @@ player_y=285
 item_count=0
 
 [skins]
-equalizer_x=974
-equalizer_y=696
-player_x=974
-player_y=580
-playlist_x=227
-playlist_y=464
+equalizer_x=1033
+equalizer_y=825
+player_x=1033
+player_y=709
+playlist_x=286
+playlist_y=593
 skin=/usr/share/audacious/Skins/Refugee
 twoway_scroll=TRUE
 
 [skins-layout]
-albumart=1395,493,288,192
+albumart=1501,595,288,192
 lyricwiki=1189,354,611,192
 
 [vgmstream]

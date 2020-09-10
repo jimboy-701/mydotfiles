@@ -883,6 +883,30 @@
                     "type": "url",
                     "url": "https://wiki.archlinux.org/index.php/AppArmor#Speed-up_AppArmor_start_by_caching_profiles",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "KDE Connect/Tutorials/Useful commands - KDE UserBase Wiki",
+                    "type": "url",
+                    "url": "https://userbase.kde.org/KDE_Connect/Tutorials/Useful_commands",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Linux killall command help and examples",
+                    "type": "url",
+                    "url": "https://www.computerhope.com/unix/killall.htm",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Pkill Command in Linux | Linuxize",
+                    "type": "url",
+                    "url": "https://linuxize.com/post/pkill-command-in-linux/",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
