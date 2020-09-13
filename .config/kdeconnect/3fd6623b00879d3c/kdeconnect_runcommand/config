@@ -1,2 +1,2 @@
 [General]
-commands="@ByteArray({\"_75eb688c_6038_468c_b125_f71373e1d1c0_\":{\"command\":\"audacious\",\"name\":\"Audacious\"}})"
+commands="@ByteArray({\"_75eb688c_6038_468c_b125_f71373e1d1c0_\":{\"command\":\"audacious\",\"name\":\"Launch Audacious\"},\"_d2a4209d_ffe6_48b6_8ba8_14dba9ba4d3f_\":{\"command\":\"pkill audacious\",\"name\":\"Quit Audacious\"}})"

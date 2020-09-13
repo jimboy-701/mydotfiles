@@ -1,0 +1,158 @@
+Video
+  Driver: OpenGL 3.2
+  Monitor: Primary
+  Format: ARGB24
+  Exclusive: false
+  Blocking: true
+  Flush: false
+  Shader: /usr/share/byuu/Shaders/xBRZ.shader/
+  Multiplier: 4
+  Output: Scale
+  AspectCorrection: true
+  AdaptiveSizing: true
+  AutoCentering: true
+  Luminance: 1.0
+  Saturation: 1.0
+  Gamma: 1.0
+  ColorBleed: true
+  ColorEmulation: true
+  InterframeBlending: true
+  Overscan: false
+Audio
+  Driver: ALSA
+  Device: default:CARD=PCH
+  Frequency: 48000
+  Latency: 20
+  Exclusive: false
+  Blocking: true
+  Dynamic: true
+  Mute: false
+  Volume: 1.0
+  Balance: 0.0
+Input
+  Driver: udev
+  Defocus: Pause
+General
+  ShowStatusBar: true
+  Rewind: true
+  RunAhead: false
+  AutoSaveMemory: true
+  NativeFileDialogs: true
+Rewind
+  Length: 100
+  Frequency: 10
+Paths
+  Saves
+  Patches
+  Traces
+  Firmware
+Recent
+  Game-1: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/Final Fantasy II (Patched).sfc
+  Game-2
+  Game-3
+  Game-4
+  Game-5
+  Game-6
+  Game-7
+  Game-8
+  Game-9
+VirtualPad
+  Up: Joypad/9f7cf1be0e6f0214/Hat/1/Lo
+  Down: Joypad/9f7cf1be0e6f0214/Hat/1/Hi
+  Left: Joypad/9f7cf1be0e6f0214/Hat/0/Lo
+  Right: Joypad/9f7cf1be0e6f0214/Hat/0/Hi
+  Select: Joypad/9f7cf1be0e6f0214/Button/8
+  Start: Joypad/9f7cf1be0e6f0214/Button/9
+  A: Joypad/9f7cf1be0e6f0214/Button/1
+  B: Joypad/9f7cf1be0e6f0214/Button/2
+  X: Joypad/9f7cf1be0e6f0214/Button/7
+  Y: Joypad/9f7cf1be0e6f0214/Button/3
+  L: Joypad/9f7cf1be0e6f0214/Button/6
+  R: Joypad/9f7cf1be0e6f0214/Button/7
+Hotkey
+  ToggleFullscreen
+  FastForward
+  Rewind
+  SaveState
+  LoadState
+  DecrementStateSlot
+  IncrementStateSlot
+  PauseEmulation
+  QuitEmulator
+Famicom
+  Visible: true
+  Path
+FamicomDiskSystem
+  Visible: true
+  Path
+  Firmware
+    BIOS.Japan
+SuperFamicom
+  Visible: true
+  Path: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/
+SG-1000
+  Visible: true
+  Path
+MasterSystem
+  Visible: true
+  Path
+MegaDrive
+  Visible: true
+  Path
+MegaCD
+  Visible: true
+  Path
+  Firmware
+    BIOS.US
+    BIOS.Japan
+    BIOS.Europe
+PCEngine
+  Visible: true
+  Path
+PCEngineCD
+  Visible: true
+  Path
+  Firmware
+    BIOS.World
+SuperGrafx
+  Visible: true
+  Path
+MSX
+  Visible: true
+  Path
+MSX2
+  Visible: true
+  Path
+GameBoy
+  Visible: true
+  Path
+GameBoyColor
+  Visible: true
+  Path
+GameBoyAdvance
+  Visible: true
+  Path
+  Firmware
+    BIOS.World
+GameGear
+  Visible: true
+  Path
+WonderSwan
+  Visible: true
+  Path
+WonderSwanColor
+  Visible: true
+  Path
+PocketChallengeV2
+  Visible: true
+  Path
+NeoGeoPocket
+  Visible: true
+  Path
+  Firmware
+    BIOS.World
+NeoGeoPocketColor
+  Visible: true
+  Path
+  Firmware
+    BIOS.World

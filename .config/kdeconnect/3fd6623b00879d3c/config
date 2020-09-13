@@ -1,5 +1,5 @@
 [Plugins]
-kdeconnect_batteryEnabled=false
+kdeconnect_batteryEnabled=true
 kdeconnect_bigscreenEnabled=false
 kdeconnect_clipboardEnabled=true
 kdeconnect_contactsEnabled=true

@@ -14,7 +14,7 @@ umask 077
 # http://zsh.sourceforge.net/Intro/intro_16.html
 # setopt autocd
 # setopt cdablevars
-setopt correct
+# setopt correct
 # setopt correctall
 # setopt globdots
 setopt extendedglob
@@ -25,37 +25,34 @@ setopt sunkeyboardhack
 unsetopt caseglob
 
 # https://pissedoffadmins.com/os/my-zshrc.html
-setopt APPEND_HISTORY           # append rather than overwrite history file.
+setopt APPEND_HISTORY           # append rather than overwrite history file
+setopt INC_APPEND_HISTORY       # write after each command
 setopt EXTENDED_HISTORY         # save timestamp and runtime information
+setopt SHARE_HISTORY            # share history between sessions
 setopt HIST_EXPIRE_DUPS_FIRST   # allow dups, but expire old ones when I hit HISTSIZE
 setopt HIST_FIND_NO_DUPS        # don't find duplicates in history
 setopt HIST_IGNORE_ALL_DUPS     # ignore duplicate commands regardless of commands in between
 setopt HIST_IGNORE_DUPS         # ignore duplicate commands
 setopt HIST_REDUCE_BLANKS       # leave blanks out
 setopt HIST_SAVE_NO_DUPS        # don't save duplicates
-setopt INC_APPEND_HISTORY       # write after each command
-setopt PUSHD_IGNORE_DUPS
-setopt SHARE_HISTORY            # share history between sessions
 setopt NO_CASE_GLOB             # case insensitive globbing
 setopt NUMERIC_GLOB_SORT        # numeric glob sort
+setopt PUSHD_MINUS              # this reverts the +/- operators
+setopt AUTO_PUSHD
+setopt PUSHD_TO_HOME
+setopt PUSHD_SILENT
+setopt PUSHD_IGNORE_DUPS
 
 DIRSTACKFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/dirs"
 if [[ -f "$DIRSTACKFILE" ]] && (( ${#dirstack} == 0 )); then
 	dirstack=("${(@f)"$(< "$DIRSTACKFILE")"}")
 	[[ -d "${dirstack[1]}" ]] && cd -- "${dirstack[1]}"
 fi
-chpwd_dirstack() {
-	print -l -- "$PWD" "${(u)dirstack[@]}" > "$DIRSTACKFILE"
-}
+
+chpwd_dirstack() { print -l -- "$PWD" "${(u)dirstack[@]}" > "$DIRSTACKFILE" }
 add-zsh-hook -Uz chpwd chpwd_dirstack
 
 DIRSTACKSIZE='20'
-
-setopt AUTO_PUSHD PUSHD_SILENT PUSHD_TO_HOME
-## Remove duplicate entries
-setopt PUSHD_IGNORE_DUPS
-## This reverts the +/- operators.
-setopt PUSHD_MINUS
 
 # Remove exec permissions from all files within the current & sub directories
 rmexec() { fd --hidden --type x --glob '*.?*' -x chmod -v a-x }
@@ -68,7 +65,6 @@ alias python='clear; python -i -q'
 alias pwsh='clear; pwsh-preview -NoLogo'
 alias powershell='clear; pwsh-preview -NoLogo'
 
-# Let's be lazy as possible when listing directories
 alias l="ls --color --classify --group-directories-first"
 alias ll="ls -l --color --classify --group-directories-first"
 alias la="ls -a --color --classify --group-directories-first"
@@ -97,20 +93,11 @@ alias rm="rm -iv"
 alias df="df -h"
 alias lsblk="lsblk -f"
 
-# Query pacman for packages for Orphans
-alias opkgs="pacman -Qdt"
-
-# Get information on installed package
-alias ipkgs="pacman -Qi"
-
-# Uninstall only the package leaving it's dependencies
-alias rpkgs="sudo pacman -Rn"
-
-# Uninstall a package and its dependencies
-alias rmpkgs="sudo pacman -Rns"
-
-# To view the dependency tree of a package:
-alias trpkgs="pactree -c"
+alias opkgs="pacman -Qdt"       # Query pacman for packages for Orphans
+alias ipkgs="pacman -Qi"        # Get information on installed package
+alias rpkgs="sudo pacman -Rn"   # Uninstall only the package leaving it's dependencies
+alias rmpkgs="sudo pacman -Rns" # Uninstall a package and its dependencies
+alias trpkgs="pactree -c"       # To view the dependency tree of a package
 
 # Query pacman with fzf
 alias spkgs="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
