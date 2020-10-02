@@ -88,7 +88,9 @@ alias ds="dirs -v"
 
 alias cp="cp -v"
 alias mv="mv -v"
-alias rm="rm -iv"
+alias rm="rm -Iv"
+alias rmd="rm -Ivr"
+alias rmdf="rm -vrf"
 
 alias df="df -h"
 alias lsblk="lsblk -f"

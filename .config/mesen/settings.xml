@@ -1377,6 +1377,14 @@
   <RecentFiles>
     <RecentItem>
       <RomFile>
+        <Path>/home/jma/Roms4/NES - Metroid - Rogue Dawn/Metroid (Patched).nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
         <Path>/home/jma/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man 2 (Patched).nes</Path>
         <InnerFile />
         <InnerFileIndex>0</InnerFileIndex>

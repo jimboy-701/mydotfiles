@@ -1,12 +1,13 @@
 <MWFConfig>
   <FileDialog>
     <value name="FileNames" type="string-array">
+      <string>/home/jma/Roms4/NES - Metroid - Rogue Dawn/Metroid (Patched).nes</string>
       <string>/home/jma/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man 2 (Patched).nes</string>
     </value>
-    <value name="Width" type="int">563</value>
-    <value name="LastFolder" type="string">/home/jma/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21</value>
-    <value name="Y" type="int">332</value>
+    <value name="Width" type="int">729</value>
+    <value name="LastFolder" type="string">/home/jma/Roms4/NES - Metroid - Rogue Dawn</value>
+    <value name="Y" type="int">298</value>
     <value name="Height" type="int">412</value>
-    <value name="X" type="int">792</value>
+    <value name="X" type="int">404</value>
   </FileDialog>
 </MWFConfig>

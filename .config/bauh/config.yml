@@ -1,24 +1,19 @@
 backup:
-  downgrade: null
+  downgrade: false
   enabled: true
-  install: null
+  install: false
   mode: incremental
   type: rsync
-  uninstall: null
-  upgrade: null
+  uninstall: false
+  upgrade: false
 disk:
   trim:
     after_upgrade: false
 download:
   icons: true
   multithreaded: true
-  multithreaded_client: aria2
-gems:
-- web
-- arch
-- appimage
-- flatpak
-- snap
+  multithreaded_client: null
+gems: null
 locale: null
 memory_cache:
   data_expiration: 3600

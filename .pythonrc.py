@@ -17,6 +17,5 @@ sys.ps2 = CSI + "31;40m<" + CSI + "33;40m<" + CSI + "32;40m<" + CSI + "37;40m...
 print('Python {0} on {1}'.format(".".join(str(x) for x in sys.version_info[:3]), sys.platform))
 print(os.path.expanduser('~'))
 
-# A clear screen function that will move the cursor to the (very) top of the screen and not display a "0"
-# This will not work in Windows unless ANSI support has been enabled
+# The clear screen function that will move the cursor to the (very) top of the screen and not display a "0"
 clear = lambda: sys.stderr.write("\x1b[2J\x1b[H")

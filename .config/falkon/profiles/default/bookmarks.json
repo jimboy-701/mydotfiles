@@ -907,6 +907,54 @@
                     "type": "url",
                     "url": "https://linuxize.com/post/pkill-command-in-linux/",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "What is Waifu Crop? · dylanaraps/neofetch Wiki",
+                    "type": "url",
+                    "url": "https://github.com/dylanaraps/neofetch/wiki/What-is-Waifu-Crop%3F",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "How to take back control of /etc/resolv.conf on Linux | Ctrl blog",
+                    "type": "url",
+                    "url": "https://www.ctrl.blog/entry/resolvconf-tutorial.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "Ubuntu Manpage: resolvconf.conf — resolvconf configuration file",
+                    "type": "url",
+                    "url": "http://manpages.ubuntu.com/manpages/trusty/man5/resolvconf.conf.5.html",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "GerbilSoft/rom-properties: ROM Properties Page shell extension",
+                    "type": "url",
+                    "url": "https://github.com/GerbilSoft/rom-properties",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "zsh: How to check if an option is enabled - Unix & Linux Stack Exchange",
+                    "type": "url",
+                    "url": "https://unix.stackexchange.com/questions/121802/zsh-how-to-check-if-an-option-is-enabled",
+                    "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "zshoptions(1): zsh options - Linux man page",
+                    "type": "url",
+                    "url": "https://linux.die.net/man/1/zshoptions",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",

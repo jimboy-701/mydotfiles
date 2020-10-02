@@ -110,7 +110,11 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 
 # Microsoft Access
 .accdb                38;5;112  # Access 2007 Database File
+.accde                38;5;112  # Access 2019 Database File (Read-Only \ Protected version of .accdb containing VBA code)
+.accdr                38;5;112  # Access 2019 Database File (Read-Only version of .accdb)
 .mdb                  38;5;112  # Microsoft Access Database
+.mda                  38;5;112  # Microsoft Access Database Application (Contains add-in VBA code)
+.mde                  38;5;112  # Microsoft Access Database Application (Protected \ Compiled version of .mda containing add-in VBA code)
 
 # Microsoft Outlook
 .msg                  38;5;112  # Outlook Mail Message
@@ -162,27 +166,14 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .plx                  38;5;40  # Perl
 .js                   38;5;40  # JavaScript
 .mjs                  38;5;40  # JavaScript \ Node.js
+.rb                   38;5;40  # Ruby
+.tcl                  38;5;40  # Tool Command Language
 
 # Program Scripts (green)
-.sed                  38;5;40
-.awk                  38;5;40
-
-# interpreted
-.ahk                  38;5;41
-
-# ruby
-.rb                   38;5;41
-.gemspec              38;5;41
+.sed                  38;5;64;1
+.awk                  38;5;64;1
 
 
-# sql
-.msql                 38;5;222
-.mysql                38;5;222
-.pgsql                38;5;222
-.sql                  38;5;222
-
-#   Tool Command Language
-.tcl                  38;5;64;1
 
 # R language
 .r                    38;5;49
@@ -422,6 +413,10 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .sample               38;5;114
 .wmv                  38;5;114
 
+# DVD Video files
+.ts                   38;5;114  # Video Transport Stream File (MEPG-2 (.MPEG) compressed video)
+.vob                  38;5;114  # Video Object File (contains stored data video, audio, subtitles, DVD menus and other navigation contents)
+
 # mobile/streaming
 .3g2                  38;5;115
 .3gp                  38;5;115
@@ -565,22 +560,13 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .iso                  38;5;166
 .bin                  38;5;166
 
-# databases (blue violet)
-.accdb                38;5;60
-.accde                38;5;60
-.accdr                38;5;60
-.accdt                38;5;60
+# Databases (blue violet)
 .db                   38;5;60
-.fmp12                38;5;60
-.fp7                  38;5;60
-.localstorage         38;5;60
-.mdb                  38;5;60
-.mde                  38;5;60
 .sqlite               38;5;60
-.typelib              38;5;60
-
-# NetCDF database
-.nc                   38;5;60
+.msql                 38;5;60
+.mysql                38;5;60
+.pgsql                38;5;60
+.sql                  38;5;60
 
 # tempfiles
 # undo files

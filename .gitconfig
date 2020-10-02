@@ -32,3 +32,5 @@ email = blackchrome.996@gmail.com
 	insteadOf = https://aur.archlinux.org/
 	insteadOf = http://aur.archlinux.org/
 	insteadOf = git://aur.archlinux.org/
+[core]
+	editor = nano
