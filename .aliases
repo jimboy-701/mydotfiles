@@ -1,3 +1,16 @@
+## All aliases are kept here and sourced from zshrc
+
+## Push updated .zshrc settings to enviroment
+#
+alias reload="source ~/.zshrc"
+
+## Setting Python and Powershell preferences
+#
+alias python='clear; python -i -q'
+alias pwsh='clear; pwsh-preview -NoLogo'
+alias powershell='clear; pwsh-preview -NoLogo'
+
+
 
 ## Pacman related aliases
 #
@@ -6,3 +19,57 @@ alias ipkgs="pacman -Qi"        # Get information on installed package
 alias rpkgs="sudo pacman -Rn"   # Uninstall only the package leaving it's dependencies
 alias rmpkgs="sudo pacman -Rns" # Uninstall a package and its dependencies
 alias trpkgs="pactree -c"       # To view the dependency tree of a package
+
+alias spkgs="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
+
+# If you want to add package file list in preview - may be a bit slower updating preview window (make sure you run pacman -Fy at least
+# Once before invocation to sync the pacman file database)
+# Query below seems broken
+alias fpkgs="pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S"
+
+## Python pip
+#
+alias lspip="pip list"
+alias chkpip="pip-review"
+alias iupdatepip="pip-review --interactive"
+alias aupdatepip="pip-review --auto"
+
+## Admin tools
+#
+alias df="df -h"
+alias lsblk="lsblk -f"
+
+## Grep searches
+#
+alias grep="grep --color"
+alias rgrep="grep -RHIi"
+
+## File operations
+#
+alias cp="cp -v"
+alias mv="mv -v"
+alias rm="rm -Iv"
+alias rmd="rm -Ivr"
+alias rmdf="rm -vrf"
+
+## All aliases related to listing files \ directories
+#
+alias ..="cd .."
+alias ...="cd .. ; cd .."
+alias ds="dirs -v"
+
+alias dl="ls -d --color --classify */"
+alias dll="ls -ld --color --classify */"
+alias lt="exa -T"
+
+alias l="ls --color --classify --group-directories-first"
+alias ll="ls -l --color --classify --group-directories-first"
+alias la="ls -a --color --classify --group-directories-first"
+alias lla="ls -la --color --classify --group-directories-first"
+alias lss="ls -sh --color --classify --group-directories-first"
+alias lsh="ls -ash --color --classify --group-directories-first"
+
+# How to get rid of “zsh: no matches found: .?*”
+# https://unix.stackexchange.com/questions/310540/how-to-get-rid-of-no-match-found-when-running-rm
+alias lh="ls -d --color --classify --group-directories-first .?* 2>/dev/null"
+alias lhl="ls -ld --color --classify --group-directories-first .?* 2>/dev/null"
