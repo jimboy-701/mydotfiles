@@ -1,0 +1,8 @@
+
+## Pacman related aliases
+#
+alias opkgs="pacman -Qdt"       # Query pacman for packages for Orphans
+alias ipkgs="pacman -Qi"        # Get information on installed package
+alias rpkgs="sudo pacman -Rn"   # Uninstall only the package leaving it's dependencies
+alias rmpkgs="sudo pacman -Rns" # Uninstall a package and its dependencies
+alias trpkgs="pactree -c"       # To view the dependency tree of a package

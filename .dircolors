@@ -556,6 +556,11 @@ STICKY_OTHER_WRITABLE 48;5;40;38;5;232 # (48;5;235;38;5;139;3) Note:3rd number "
 .cab                  38;5;160;4
 .dmg                  38;5;160;4
 
+# Microsoft Imaging Files
+.wim                  38;5;166  # Windows Imaging Format File
+.swim                 38;5;166  #
+.esd                  38;5;166  #
+
 # Partition Images (deep orange)
 .iso                  38;5;166
 .bin                  38;5;166

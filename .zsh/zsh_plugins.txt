@@ -2,8 +2,6 @@ zsh-users/zsh-completions src
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-history-substring-search
 zsh-users/zsh-autosuggestions
-#trapd00r/zsh-syntax-highlighting-filetypes
 MichaelAquilina/zsh-you-should-use
 hlissner/zsh-autopair
-#broken djui/alias-tips
 denysdovhan/spaceship-prompt

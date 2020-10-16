@@ -955,6 +955,14 @@
                     "type": "url",
                     "url": "https://linux.die.net/man/1/zshoptions",
                     "visit_count": 0
+                },
+                {
+                    "description": "",
+                    "keyword": "",
+                    "name": "keyboard shortcuts - Alt+number+dot and Alt+comma in Zsh and Bash - Stack Overflow",
+                    "type": "url",
+                    "url": "https://stackoverflow.com/questions/34571398/altnumberdot-and-altcomma-in-zsh-and-bash/34861762#34861762",
+                    "visit_count": 0
                 }
             ],
             "description": "All other bookmarks",
