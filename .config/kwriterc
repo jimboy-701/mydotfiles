@@ -4,8 +4,8 @@ ShowPath=true
 ShowStatusBar=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Dropbox/Linux.Howtos/Snapd.txt,file:$HOME/git-ssh-vscode.txt,file:$HOME/.dircolors,file:$HOME/.zshrc,file:///var/log/samba/log.smbd,file:$HOME/.tmux.conf,file:$HOME/.xprofile,file:$HOME/Dropbox/Kungfu/pacman.txt,file:$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1,file:$HOME/Dropbox/PythonCodeNotes2.txt,file:$HOME/.config/yay/config.json,file:$HOME/Dropbox/System.Configs/dir_colors_mod,file:$HOME/.gitconfig,file:///etc/samba/smb.conf,file:$HOME/.ssh/id_rsa.pub
-Recent URLs[$e]=file:$HOME/Dropbox/Linux.Howtos/
+Recent Files[$e]=file:///run/media/jma/SHARE/_Windows.98SE/Windows98SE.UpgradeNotes.txt,file:$HOME/.aliases,file:$HOME/.zsh/zsh_plugins.txt,file:$HOME/.dircolors,file:$HOME/Dropbox/Linux.Howtos/TmuxGuide.txt,file:$HOME/.tmux.conf,file:$HOME/mouseoveraction.sh,file:$HOME/Dropbox/Linux.Howtos/UbuntuInstallSetup.txt,file:$HOME/vmware-workstation-setup.txt,file:///etc/makepkg.conf,file:$HOME/.config/autostart/org.kde.yakuake.desktop,file:$HOME/.config/autostart/xdman.desktop,file:$HOME/.config/kwinrc,file:$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc,file:$HOME/.config/powershell/starship.toml
+Recent URLs[$e]=file:$HOME/,file:$HOME/Documents/,file:///run/media/jma/SHARE/_Windows.98SE/Patches-R.Loew/,file:$HOME/Dropbox/Linux.Howtos/,file:$HOME/Dropbox/,file:$HOME/Dropbox/Kungfu/,file:///run/media/jma/SHARE/_Windows.98SE/,file:$HOME/Videos/,file:$HOME/.zsh/,file:$HOME/Zelda2_Redux/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -48,6 +48,9 @@ Fallback Encoding=ISO 8859-15
 
 [KTextEditor Renderer]
 Animate Bracket Matching=true
+Auto Color Theme Selection=true
+Color Theme=Breeze Dark
+Font=Hack,12,-1,5,50,0,0,0,0,0
 Schema=Normal
 Show Indentation Lines=true
 Show Whole Bracket Expression=false
@@ -60,6 +63,7 @@ Auto Center Lines=0
 Auto Completion=true
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
+Bracket Match Preview=false
 Chars To Enclose Selection=
 Default Mark Type=1
 Dynamic Word Wrap=true
@@ -98,32 +102,36 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=lsof,.py,.r,crop_mode,source,42,rar,xlsxm,zst,txt
+Search History=source,xps,roms,lsof,.py,.r,crop_mode,42,rar,xlsxm,zst,txt
 
 [MainWindow]
-Height 1080=387
-State=AAAA/wAAAAD9AAAAAAAAA+cAAAFlAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+HDMI1 Height 1080=539
+HDMI1 Width 1920=1527
+HDMI1 XPosition=109
+HDMI1 YPosition=460
+Height 1080=539
+State=AAAA/wAAAAD9AAAAAAAABfcAAAH9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=999
+Width 1920=1466
 
 [Recent Files]
-File1[$e]=$HOME/.config/bauh/arch.yml
-File10[$e]=$HOME/.gitconfig
-File2[$e]=$HOME/.config/bauh/config.yml
-File3[$e]=$HOME/.config/yay/config.json
-File4[$e]=$HOME/.config/bauh/arch/makepkg.conf
-File5[$e]=$HOME/Dropbox/Python.Projects/PyGI.Toolkit/gtk3-demo.py
-File6[$e]=$HOME/Dropbox/Python.Projects/PyGI.Toolkit/gtk3test.py
-File7[$e]=$HOME/Dropbox/Kungfu/git.txt
-File8[$e]=$HOME/.jd/license.txt
-File9[$e]=$HOME/.gnupg/gpg.conf
-Name1[$e]=arch.yml
-Name10[$e]=.gitconfig
-Name2[$e]=config.yml
-Name3[$e]=config.json
-Name4[$e]=makepkg.conf
-Name5[$e]=gtk3-demo.py
-Name6[$e]=gtk3test.py
-Name7[$e]=git.txt
-Name8[$e]=license.txt
-Name9[$e]=gpg.conf
+File1[$e]=$HOME/Dropbox/Linux.Howtos/ArchOnZFS/0-zfs.sh
+File10[$e]=$HOME/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Readme.txt
+File2[$e]=$HOME/Dropbox/App.Configs/zsh/grml.zshrc.txt
+File3[$e]=$HOME/.aliases
+File4[$e]=$HOME/.zshrc
+File5[$e]=$HOME/Zelda2_Redux/Readme.txt
+File6[$e]=/etc/vconsole.conf
+File7[$e]=$HOME/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man WC2 - Hyper Edition Turbo v1.21.log
+File8[$e]=$HOME/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man WC2 - Hyper Edition Turbo - readme.txt
+File9[$e]=$HOME/Roms3/Rockman4BCAS/read me.txt
+Name1[$e]=0-zfs.sh
+Name10[$e]=Readme.txt
+Name2[$e]=grml.zshrc.txt
+Name3[$e]=.aliases
+Name4[$e]=.zshrc
+Name5[$e]=Readme.txt
+Name6[$e]=vconsole.conf
+Name7[$e]=Mega Man WC2 - Hyper Edition Turbo v1.21.log
+Name8[$e]=Mega Man WC2 - Hyper Edition Turbo - readme.txt
+Name9[$e]=read me.txt
