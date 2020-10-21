@@ -1,12 +1,18 @@
 <MWFConfig>
   <FileDialog>
     <value name="FileNames" type="string-array">
+      <string>/home/jma/Roms3/Rockman4BCAS/Rockman 4 - Aratanaru Yabou!! (Patched).nes</string>
+      <string>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (Redux+OptionalPatches).nes</string>
+      <string>/home/jma/Zelda2_Redux/Selected.Patches/Zelda II - The Adventure of Link (Revility Edition Sprites).nes</string>
+      <string>/home/jma/Zelda2_Redux/Selected.Patches/Zelda II - The Adventure of Link (New GFX).nes</string>
+      <string>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (USA).zip</string>
+      <string>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (Patched).nes</string>
       <string>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (Patched+Optionals).nes</string>
       <string>/home/jma/Roms4/NES - Metroid - Rogue Dawn/Metroid (Patched).nes</string>
       <string>/home/jma/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man 2 (Patched).nes</string>
     </value>
     <value name="Width" type="int">729</value>
-    <value name="LastFolder" type="string">/home/jma/Zelda2_Redux</value>
+    <value name="LastFolder" type="string">/home/jma/Roms3/Rockman4BCAS</value>
     <value name="Y" type="int">321</value>
     <value name="Height" type="int">412</value>
     <value name="X" type="int">592</value>

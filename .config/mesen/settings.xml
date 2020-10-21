@@ -471,7 +471,7 @@
     <OverscanRight>0</OverscanRight>
     <OverscanTop>0</OverscanTop>
     <OverscanBottom>0</OverscanBottom>
-    <VideoScale>3.9875</VideoScale>
+    <VideoScale>3.984375</VideoScale>
     <VideoFilter>xBRZ4x</VideoFilter>
     <UseBilinearInterpolation>false</UseBilinearInterpolation>
     <AspectRatio>NoStretching</AspectRatio>
@@ -1377,6 +1377,54 @@
   <RecentFiles>
     <RecentItem>
       <RomFile>
+        <Path>/home/jma/Roms3/Rockman4BCAS/Rockman 4 - Aratanaru Yabou!! (Patched).nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
+        <Path>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (Redux+OptionalPatches).nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
+        <Path>/home/jma/Zelda2_Redux/Selected.Patches/Zelda II - The Adventure of Link (Revility Edition Sprites).nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
+        <Path>/home/jma/Zelda2_Redux/Selected.Patches/Zelda II - The Adventure of Link (New GFX).nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
+        <Path>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (USA).zip</Path>
+        <InnerFile>Zelda II - The Adventure of Link (USA).nes</InnerFile>
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
+        <Path>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (Patched).nes</Path>
+        <InnerFile />
+        <InnerFileIndex>0</InnerFileIndex>
+      </RomFile>
+      <PatchFile xsi:nil="true" />
+    </RecentItem>
+    <RecentItem>
+      <RomFile>
         <Path>/home/jma/Zelda2_Redux/Zelda II - The Adventure of Link (Patched+Optionals).nes</Path>
         <InnerFile />
         <InnerFileIndex>0</InnerFileIndex>
@@ -1860,12 +1908,12 @@
   </HistoryViewerInfo>
   <GameSpecificSettings />
   <WindowLocation>
-    <X>567</X>
-    <Y>0</Y>
+    <X>519</X>
+    <Y>13</Y>
   </WindowLocation>
   <WindowSize>
     <Width>1028</Width>
-    <Height>1012</Height>
+    <Height>1011</Height>
   </WindowSize>
   <CheatWindowLocation>
     <X>0</X>
