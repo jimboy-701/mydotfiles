@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gamecontroller configversion="19" appversion="3.0.1">
+<gamecontroller configversion="19" appversion="3.1.2">
     <!--The SDL name for a joystick is included for informational purposes only.-->
     <sdlname>PS3 Controller</sdlname>
     <!--The Unique ID for a joystick is included for informational purposes only.-->
     <uniqueID>030000006f0e000014020000110100003695532</uniqueID>
-    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
     <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
+    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
     <vdpadButtonAssociations index="1">
         <vdpadButtonAssociation axis="0" button="12" direction="1"/>
         <vdpadButtonAssociation axis="0" button="13" direction="4"/>
@@ -13,8 +13,8 @@
         <vdpadButtonAssociation axis="0" button="15" direction="2"/>
     </vdpadButtonAssociations>
     <names>
-        <controlstickname index="1">Stick 1</controlstickname>
         <controlstickname index="2">Stick 2</controlstickname>
+        <controlstickname index="1">Stick 1</controlstickname>
     </names>
     <sets>
         <set index="1">
@@ -35,14 +35,6 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-                <dpadbutton index="1">
-                    <slots>
-                        <slot>
-                            <code>0x1000013</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
                 <dpadbutton index="2">
                     <slots>
                         <slot>
@@ -51,22 +43,15 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-            </dpad>
-            <trigger index="5">
-                <deadZone>2000</deadZone>
-                <center_value>0</center_value>
-                <min_value>-32767</min_value>
-                <max_value>32767</max_value>
-                <throttle>positivehalf</throttle>
-                <triggerbutton index="2">
+                <dpadbutton index="1">
                     <slots>
                         <slot>
-                            <code>0x5a</code>
+                            <code>0x1000013</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
-                </triggerbutton>
-            </trigger>
+                </dpadbutton>
+            </dpad>
             <trigger index="6">
                 <deadZone>2000</deadZone>
                 <center_value>0</center_value>
@@ -82,14 +67,21 @@
                     </slots>
                 </triggerbutton>
             </trigger>
-            <button index="5">
-                <slots>
-                    <slot>
-                        <code>0x1000000</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
+            <trigger index="5">
+                <deadZone>2000</deadZone>
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>0x5a</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
             <button index="7">
                 <slots>
                     <slot>
@@ -98,18 +90,18 @@
                     </slot>
                 </slots>
             </button>
-            <button index="1">
+            <button index="5">
                 <slots>
                     <slot>
-                        <code>0x43</code>
+                        <code>0x1000000</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
             </button>
-            <button index="2">
+            <button index="4">
                 <slots>
                     <slot>
-                        <code>0x1000004</code>
+                        <code>0x58</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
@@ -122,10 +114,18 @@
                     </slot>
                 </slots>
             </button>
-            <button index="4">
+            <button index="2">
                 <slots>
                     <slot>
-                        <code>0x58</code>
+                        <code>0x1000004</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>0x43</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
