@@ -3,6 +3,7 @@ outlineWidth=1
 
 [ScreenConnectors]
 10=HDMI1
+11=HDMI2
 
 [UniversalSettings]
 badges3DStyle=false

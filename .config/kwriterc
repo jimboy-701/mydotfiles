@@ -4,8 +4,8 @@ ShowPath=true
 ShowStatusBar=false
 
 [KFileDialog Settings]
-Recent Files[$e]=file:///run/media/jma/SHARE/_Windows.98SE/Windows98SE.UpgradeNotes.txt,file:$HOME/.aliases,file:$HOME/.zsh/zsh_plugins.txt,file:$HOME/.dircolors,file:$HOME/Dropbox/Linux.Howtos/TmuxGuide.txt,file:$HOME/.tmux.conf,file:$HOME/mouseoveraction.sh,file:$HOME/Dropbox/Linux.Howtos/UbuntuInstallSetup.txt,file:$HOME/vmware-workstation-setup.txt,file:///etc/makepkg.conf,file:$HOME/.config/autostart/org.kde.yakuake.desktop,file:$HOME/.config/autostart/xdman.desktop,file:$HOME/.config/kwinrc,file:$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc,file:$HOME/.config/powershell/starship.toml
-Recent URLs[$e]=file:$HOME/,file:$HOME/Documents/,file:///run/media/jma/SHARE/_Windows.98SE/Patches-R.Loew/,file:$HOME/Dropbox/Linux.Howtos/,file:$HOME/Dropbox/,file:$HOME/Dropbox/Kungfu/,file:///run/media/jma/SHARE/_Windows.98SE/,file:$HOME/Videos/,file:$HOME/.zsh/,file:$HOME/Zelda2_Redux/
+Recent Files[$e]=file:$HOME/microsoft-edge-dev-bin/microsoft-edge-dev.sh,file:$HOME/.zshrc,file:$HOME/.aliases,file:$HOME/.dircolors,file:$HOME/.zsh/zsh_plugins.txt,file:$HOME/Dropbox/Linux.Howtos/TmuxGuide.txt,file:$HOME/.tmux.conf,file:$HOME/mouseoveraction.sh,file:$HOME/Dropbox/Linux.Howtos/UbuntuInstallSetup.txt,file:$HOME/vmware-workstation-setup.txt,file:///etc/makepkg.conf,file:$HOME/.config/autostart/org.kde.yakuake.desktop,file:$HOME/.config/autostart/xdman.desktop,file:$HOME/.config/kwinrc,file:$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc
+Recent URLs[$e]=file:$HOME/Documents/,file:///run/media/jma/SHARE/_Windows.98SE/Patches-R.Loew/,file:$HOME/Dropbox/Linux.Howtos/,file:$HOME/Dropbox/,file:$HOME/Dropbox/Kungfu/,file:///run/media/jma/SHARE/_Windows.98SE/,file:$HOME/Videos/,file:$HOME/.zsh/,file:$HOME/Zelda2_Redux/,file:$HOME/microsoft-edge-dev-bin/,file:$HOME/
 detailViewIconSize=0
 
 [KTextEditor Document]
@@ -106,32 +106,36 @@ Search History=source,xps,roms,lsof,.py,.r,crop_mode,42,rar,xlsxm,zst,txt
 
 [MainWindow]
 HDMI1 Height 1080=539
-HDMI1 Width 1920=1527
-HDMI1 XPosition=109
-HDMI1 YPosition=460
+HDMI1 Width 1920=1149
+HDMI1 XPosition=619
+HDMI1 YPosition=382
+HDMI2 Height 1080=539
+HDMI2 Width 1920=1466
+HDMI2 XPosition=209
+HDMI2 YPosition=285
 Height 1080=539
-State=AAAA/wAAAAD9AAAAAAAABfcAAAH9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABboAAAH9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1466
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Linux.Howtos/ArchOnZFS/0-zfs.sh
-File10[$e]=$HOME/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Readme.txt
-File2[$e]=$HOME/Dropbox/App.Configs/zsh/grml.zshrc.txt
-File3[$e]=$HOME/.aliases
-File4[$e]=$HOME/.zshrc
-File5[$e]=$HOME/Zelda2_Redux/Readme.txt
-File6[$e]=/etc/vconsole.conf
-File7[$e]=$HOME/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man WC2 - Hyper Edition Turbo v1.21.log
-File8[$e]=$HOME/Roms3/Mega Man WC2 - Hyper Edition Turbo v1_21/Mega Man WC2 - Hyper Edition Turbo - readme.txt
-File9[$e]=$HOME/Roms3/Rockman4BCAS/read me.txt
-Name1[$e]=0-zfs.sh
-Name10[$e]=Readme.txt
-Name2[$e]=grml.zshrc.txt
-Name3[$e]=.aliases
-Name4[$e]=.zshrc
-Name5[$e]=Readme.txt
-Name6[$e]=vconsole.conf
-Name7[$e]=Mega Man WC2 - Hyper Edition Turbo v1.21.log
-Name8[$e]=Mega Man WC2 - Hyper Edition Turbo - readme.txt
-Name9[$e]=read me.txt
+File1[$e]=$HOME/vmware-workstation-setup.txt
+File10[$e]=$HOME/.config/filetypesrc
+File2[$e]=$HOME/Videos/family.vhs.2/video_info.txt
+File3[$e]=$HOME/Videos/family.vhs.3/video_info.txt
+File4[$e]=$HOME/Roms/SNES - Terranigma/readme.txt
+File5[$e]=$HOME/Roms/SNES - Terranigma/readme1.txt
+File6[$e]=$HOME/Desktop/PsHashW.ini
+File7[$e]=$HOME/Dropbox/Linux.Howtos/qemu-virt-install.txt
+File8[$e]=$HOME/.config/katerc
+File9[$e]=$HOME/.config/falkonrc
+Name1[$e]=vmware-workstation-setup.txt
+Name10[$e]=filetypesrc
+Name2[$e]=video_info.txt
+Name3[$e]=video_info.txt
+Name4[$e]=readme.txt
+Name5[$e]=readme1.txt
+Name6[$e]=PsHashW.ini
+Name7[$e]=qemu-virt-install.txt
+Name8[$e]=katerc
+Name9[$e]=falkonrc

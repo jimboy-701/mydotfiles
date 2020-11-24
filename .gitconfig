@@ -23,14 +23,28 @@ email = blackchrome.996@gmail.com
   remote = yellow
 
 [url "git@github.com:"]
-	insteadOf = https://github.com/
+    insteadOf = https://github.com/
 
 [url "git://"]
-	insteadOf = https://
+    insteadOf = https://
 
 [url "https://aur.archlinux.org/"]
-	insteadOf = https://aur.archlinux.org/
-	insteadOf = http://aur.archlinux.org/
-	insteadOf = git://aur.archlinux.org/
+    insteadOf = https://aur.archlinux.org/
+    insteadOf = http://aur.archlinux.org/
+    insteadOf = git://aur.archlinux.org/
 [core]
-	editor = nano
+    editor = nano
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    features = side-by-side line-numbers decorations
+    whitespace-error-style = 22 reverse
+	side-by-side = true
+
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none

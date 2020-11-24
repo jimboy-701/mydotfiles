@@ -8,6 +8,9 @@ Favorites=Profile 2.profile
 SaveGeometryOnExit=false
 
 [MainWindow]
+HDMI1 XPosition=284
+HDMI1 YPosition=373
+RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAABGMAAAF+AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 
