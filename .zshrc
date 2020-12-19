@@ -90,5 +90,5 @@ bindkey '^[[F' end-of-line                                     # End key
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 
-# Colored directory listings
+# Colored file listings
 eval $(dircolors -b $HOME/.dircolors)

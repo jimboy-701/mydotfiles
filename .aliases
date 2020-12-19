@@ -10,8 +10,6 @@ alias python='clear; python -i -q'
 alias pwsh='clear; pwsh-preview -NoLogo'
 alias powershell='clear; pwsh-preview -NoLogo'
 
-
-
 ## Pacman related aliases
 #
 alias opkgs="pacman -Qdt"       # Query pacman for packages for Orphans
@@ -25,6 +23,7 @@ alias spkgs="pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro su
 # If you want to add package file list in preview - may be a bit slower updating preview window (make sure you run pacman -Fy at least
 # Once before invocation to sync the pacman file database)
 # Query below seems broken
+#
 alias fpkgs="pacman -Slq | fzf --multi --preview 'cat <(pacman -Si {1}) <(pacman -Fl {1} | awk "{print \$2}")' | xargs -ro sudo pacman -S"
 
 ## Python pip
@@ -51,6 +50,13 @@ alias mv="mv -v"
 alias rm="rm -Iv"
 alias rmd="rm -Ivr"
 alias rmdf="rm -vrf"
+alias mkd="mkdir -pv"
+
+# https://unix.stackexchange.com/questions/9123/is-there-a-one-liner-that-allows-me-to-create-a-directory-and-move-into-it-at-th
+mkcd () {
+  case "$1" in /*) :;; *) set -- "./$1";; esac
+  mkdir -p "$1" && cd "$1"
+}
 
 ## All aliases related to listing files \ directories
 #
@@ -66,10 +72,16 @@ alias l="ls --color --classify --group-directories-first"
 alias ll="ls -l --color --classify --group-directories-first"
 alias la="ls -a --color --classify --group-directories-first"
 alias lla="ls -la --color --classify --group-directories-first"
-alias lss="ls -sh --color --classify --group-directories-first"
-alias lsh="ls -ash --color --classify --group-directories-first"
+alias lss="ls --color --human-readable --size -1 -S --classify"
+alias lsh="ls -ash --color --human-readable --size -1 -S --classify"
 
 # How to get rid of “zsh: no matches found: .?*”
 # https://unix.stackexchange.com/questions/310540/how-to-get-rid-of-no-match-found-when-running-rm
+#
 alias lh="ls -d --color --classify --group-directories-first .?* 2>/dev/null"
 alias lhl="ls -ld --color --classify --group-directories-first .?* 2>/dev/null"
+
+## Network related
+#
+alias ports="sudo netstat -tulanp"
+alias myip="curl ipinfo.io/ip"
