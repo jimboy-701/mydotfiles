@@ -52,11 +52,10 @@ alias rmd="rm -Ivr"
 alias rmdf="rm -vrf"
 alias mkd="mkdir -pv"
 
+# Is there a one-liner that allows me to create a directory and move into it at the same time?
 # https://unix.stackexchange.com/questions/9123/is-there-a-one-liner-that-allows-me-to-create-a-directory-and-move-into-it-at-th
-mkcd () {
-  case "$1" in /*) :;; *) set -- "./$1";; esac
-  mkdir -p "$1" && cd "$1"
-}
+#
+mkcd() { mkdir -p "$1" && cd "$1"; }
 
 ## All aliases related to listing files \ directories
 #
