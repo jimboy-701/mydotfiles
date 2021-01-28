@@ -5,10 +5,12 @@ bindkey -e
 zstyle :compinstall filename '/home/jma/.zshrc'
 autoload -Uz compinit; compinit
 autoload -Uz add-zsh-hook
+autoload -U zmv
 
 # https://wiki.archlinux.org/index.php/Umask
 # This setting gives read and write permissions for new files, and read, write and execute
 # permissions for new folders
+#
 umask 077
 
 # http://zsh.sourceforge.net/Intro/intro_16.html
@@ -17,8 +19,9 @@ umask 077
 # setopt correct
 # setopt correctall
 # setopt globdots
+#
 setopt extendedglob
-setopt +o nomatch               # See aliases section "lh, lhl" below
+setopt +o nomatch               # See in .aliases for "lh, lhl"
 setopt interactivecomments
 setopt rcquotes
 setopt notify
@@ -26,6 +29,7 @@ setopt sunkeyboardhack
 unsetopt caseglob
 
 # https://pissedoffadmins.com/os/my-zshrc.html
+#
 setopt APPEND_HISTORY           # append rather than overwrite history file
 setopt INC_APPEND_HISTORY       # write after each command
 setopt EXTENDED_HISTORY         # save timestamp and runtime information
@@ -44,40 +48,38 @@ setopt PUSHD_TO_HOME
 setopt PUSHD_SILENT
 setopt PUSHD_IGNORE_DUPS
 
-## Use Dirstack
-#
-DIRSTACKFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/dirs"
-if [[ -f "$DIRSTACKFILE" ]] && (( ${#dirstack} == 0 )); then
-    dirstack=("${(@f)"$(< "$DIRSTACKFILE")"}")
-    [[ -d "${dirstack[1]}" ]] && cd -- "${dirstack[1]}"
-fi
-
-# To print the dirstack Use cd -<NUM> to go back to a visited folder
-# Use autocompletion after the dash
-chpwd_dirstack() { print -l -- "$PWD" "${(u)dirstack[@]}" > "$DIRSTACKFILE" }
-add-zsh-hook -Uz chpwd chpwd_dirstack
-DIRSTACKSIZE='20'
-
-## Auto-list directory contents on cd
-#
-auto-ls() { ls --color --group-directories-first --classify; }
-chpwd_functions=( auto-ls $chpwd_functions )
-
-## Remove exec permissions from all files within the current directory & sub directories
-#
-rmexec() { fd --hidden --type x --glob '*.?*' -x chmod -v a-x }
-
 source $HOME/.aliases
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
 # Initialize the Zsh plugin manager Antibody (replacement for the slower Antigen)
 # https://getantibody.github.io/
+#
 source <(antibody init)
-antibody bundle < ~/.zsh/zsh_plugins.txt
+antibody bundle < ~/.zplugins
+
+SPACESHIP_PROMPT_ORDER=(
+  time          # Time stamps section
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  hg            # Mercurial section (hg_branch  + hg_status)
+  package       # Package version
+  docker        # Docker section
+  pyenv         # Pyenv section
+  exec_time     # Execution time
+  line_sep      # Line break
+  battery       # Battery level and status
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
 
 # User Antibody to load oh-my-zsh plugins
 # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins
+#
 antibody bundle robbyrussell/oh-my-zsh path:plugins/sudo
 
 bindkey '^[[A' history-substring-search-up
@@ -87,8 +89,10 @@ bindkey '^[[F' end-of-line                                     # End key
 
 # Load fzf command-line fuzzy finder
 # https://github.com/junegunn/fzf
+#
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 
 # Colored file listings
+#
 eval $(dircolors -b $HOME/.dircolors)

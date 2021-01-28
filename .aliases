@@ -1,5 +1,25 @@
 ## All aliases are kept here and sourced from zshrc
 
+## Use Dirstack
+#
+DIRSTACKFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/dirs"
+if [[ -f "$DIRSTACKFILE" ]] && (( ${#dirstack} == 0 )); then
+    dirstack=("${(@f)"$(< "$DIRSTACKFILE")"}")
+    [[ -d "${dirstack[1]}" ]] && cd -- "${dirstack[1]}"
+fi
+
+# To print the dirstack Use cd -<NUM> to go back to a visited folder
+# Use autocompletion after the dash
+#
+chpwd_dirstack() { print -l -- "$PWD" "${(u)dirstack[@]}" > "$DIRSTACKFILE" }
+add-zsh-hook -Uz chpwd chpwd_dirstack
+DIRSTACKSIZE='20'
+
+## Auto-list directory contents on cd
+#
+auto-ls() { ls --color --group-directories-first --classify; }
+chpwd_functions=( auto-ls $chpwd_functions )
+
 ## Push updated .zshrc settings to enviroment
 #
 alias reload="source ~/.zshrc"
@@ -52,10 +72,17 @@ alias rmd="rm -Ivr"
 alias rmdf="rm -vrf"
 alias mkd="mkdir -pv"
 
-# Is there a one-liner that allows me to create a directory and move into it at the same time?
+# https://stackoverflow.com/questions/11818408/convert-all-file-extensions-to-lower-case
+#
+rnext() { zmv -v '(*).(*)' '$1.$2:l' }
+
 # https://unix.stackexchange.com/questions/9123/is-there-a-one-liner-that-allows-me-to-create-a-directory-and-move-into-it-at-th
 #
 mkcd() { mkdir -p "$1" && cd "$1"; }
+
+## Remove exec permissions from all files within the current directory & sub directories
+#
+rmexec() { fd --type x --glob '*.?*' -x chmod -v a-x }
 
 ## All aliases related to listing files \ directories
 #
