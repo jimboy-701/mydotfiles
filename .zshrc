@@ -48,7 +48,7 @@ setopt PUSHD_TO_HOME
 setopt PUSHD_SILENT
 setopt PUSHD_IGNORE_DUPS
 
-source $HOME/.aliases
+source $HOME/.aliases.zsh
 
 source /usr/share/doc/pkgfile/command-not-found.zsh
 
