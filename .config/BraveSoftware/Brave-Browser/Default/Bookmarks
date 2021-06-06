@@ -1,0 +1,662 @@
+{
+   "checksum": "06247926b5b95c0b0bc26bedc6639ee9",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13241115907277174",
+            "guid": "2dace08b-b989-4f3a-aabf-0f83236057e3",
+            "id": "5",
+            "name": "Download verified torrents: movies, music, games, software | 1337x",
+            "type": "url",
+            "url": "https://1337x.to/home/"
+         }, {
+            "date_added": "13241124578273982",
+            "guid": "1faabeec-2d9d-4f8b-966d-54808e999806",
+            "id": "7",
+            "name": "KAT - Kickass Torrents",
+            "type": "url",
+            "url": "https://kickass.sx/home/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13231230314000000",
+                  "guid": "01c8dbc4-b68c-4c0e-967f-a257c88650e1",
+                  "id": "11",
+                  "name": "1337x",
+                  "type": "url",
+                  "url": "https://1337x.to/home/"
+               }, {
+                  "date_added": "13231233326000000",
+                  "guid": "ef0c82de-3a15-43ba-833e-32e0a5da381e",
+                  "id": "12",
+                  "name": "Pastebin.com",
+                  "type": "url",
+                  "url": "https://pastebin.com/"
+               }, {
+                  "date_added": "13231317155000000",
+                  "guid": "01784492-dcc6-4ebe-b063-586a0004393c",
+                  "id": "13",
+                  "name": "10 Best Torrent Sites That REALLY Work in April 2020",
+                  "type": "url",
+                  "url": "https://www.vpnmentor.com/blog/10-best-torrent-websites/"
+               }, {
+                  "date_added": "13231406329000000",
+                  "guid": "df6cd07f-162a-46aa-b05c-a85c041898b6",
+                  "id": "14",
+                  "name": "Codecs.com",
+                  "type": "url",
+                  "url": "https://www.free-codecs.com/"
+               }, {
+                  "date_added": "13231406371000000",
+                  "guid": "f11a6f7c-96eb-4daf-8982-83550bb8defd",
+                  "id": "15",
+                  "name": "MajorGeeks.Com",
+                  "type": "url",
+                  "url": "https://www.majorgeeks.com/"
+               }, {
+                  "date_added": "13231738671000000",
+                  "guid": "e2666ace-8ba8-40c3-a34f-9f85168bf811",
+                  "id": "16",
+                  "name": "DistroWatch.com",
+                  "type": "url",
+                  "url": "https://distrowatch.com/"
+               }, {
+                  "date_added": "13231738740000000",
+                  "guid": "7997f0f5-c8e0-4404-8858-a592759dbacb",
+                  "id": "17",
+                  "name": "EmuCR",
+                  "type": "url",
+                  "url": "https://www.emucr.com/"
+               }, {
+                  "date_added": "13231738766000000",
+                  "guid": "dc74fdc3-dc74-42e5-a6ee-52e73cc278bd",
+                  "id": "18",
+                  "name": "Romhacking.net",
+                  "type": "url",
+                  "url": "http://www.romhacking.net/"
+               }, {
+                  "date_added": "13231745462000000",
+                  "guid": "b2a0567b-0838-48cc-bcf3-00070d1f18ae",
+                  "id": "19",
+                  "name": "Adafruit Industries",
+                  "type": "url",
+                  "url": "https://www.adafruit.com/"
+               }, {
+                  "date_added": "13231748973000000",
+                  "guid": "2771be32-c149-4b0b-abbd-92c2b67ba027",
+                  "id": "20",
+                  "name": "Arduino Fundamentals",
+                  "type": "url",
+                  "url": "https://store.arduino.cc/digital/cert_fundamentals#"
+               }, {
+                  "date_added": "13234687270000000",
+                  "guid": "17f3bfb7-6d7e-458d-9bb4-f203b842c9c5",
+                  "id": "21",
+                  "name": "SparkFun Electronics",
+                  "type": "url",
+                  "url": "https://www.sparkfun.com/"
+               }, {
+                  "date_added": "13231815547000000",
+                  "guid": "916e4cc2-83b2-48dc-b815-6d399f640ee0",
+                  "id": "22",
+                  "name": "Zophar's Domain",
+                  "type": "url",
+                  "url": "https://www.zophar.net/"
+               }, {
+                  "date_added": "13232184872000000",
+                  "guid": "a765fccc-8dc7-4469-81c4-c2693c5a1f67",
+                  "id": "23",
+                  "name": "DorianDotSlash - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/channel/UCJYVW4HVrMWpUvvsjPQc8-Q"
+               }, {
+                  "date_added": "13232355976000000",
+                  "guid": "3865a0af-647c-4b32-8755-f1f343a484f9",
+                  "id": "24",
+                  "name": "A recipe for installing a minimal, lightweight KDE Plasma desktop on Ubuntu. : kde",
+                  "type": "url",
+                  "url": "https://www.reddit.com/r/kde/comments/6wty79/a_recipe_for_installing_a_minimal_lightweight_kde/"
+               }, {
+                  "children": [ {
+                     "date_added": "13240193195000000",
+                     "guid": "0821f255-acf5-4148-98b4-eff9573ab500",
+                     "id": "26",
+                     "name": "windows subsystem linux vcxsrva - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/results?search_query=windows+subsystem+linux+vcxsrva"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "58b6d065-66e1-45d7-885d-e98ac5acdc7e",
+                     "id": "27",
+                     "name": "XFCE 4 Linux Desktop on WSL (windows subsystem for linux) with Pulse Audio - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=nKCe9UE-quA"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "47fb37ad-893a-4aa4-9902-71be53fc0251",
+                     "id": "28",
+                     "name": "Windows Subsystem for Linux (WSL) Tutorial & How To - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=av0UQy6g2FA"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "6a6277ac-fe31-4973-a1c3-17a70771be6a",
+                     "id": "29",
+                     "name": "Simplify 10 Dark - Windows 10 Theme Pack by dpcdpc11 on DeviantArt",
+                     "type": "url",
+                     "url": "https://www.deviantart.com/dpcdpc11/art/Simplify-10-Dark-Windows-10-Theme-Pack-740918383"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "4fd2b883-d454-4e48-902f-48dc6e448581",
+                     "id": "30",
+                     "name": "Romhacking.net - Hacks - Charge Shot Sound Fade Out",
+                     "type": "url",
+                     "url": "http://www.romhacking.net/hacks/5072/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "3a90d22b-110f-43ba-8f15-fd833b7139a5",
+                     "id": "31",
+                     "name": "QMC2 – M.A.M.E. Catalog / Launcher II",
+                     "type": "url",
+                     "url": "https://qmc2.batcom-it.net/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "55db910c-01ed-407a-b1a9-a4219a15523d",
+                     "id": "32",
+                     "name": "The 'ultimate' guide to QMC2 - BATCOM-IT Services Wiki",
+                     "type": "url",
+                     "url": "http://wiki.batcom-it.net/index.php/The_%27ultimate%27_guide_to_QMC2"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "6fb5fbb5-a190-4336-9be6-15f037caccdf",
+                     "id": "33",
+                     "name": "PCB Features and Benefits",
+                     "type": "url",
+                     "url": "https://www.rs-online.com/designspark/pcb-features-and-benefits"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "a6c7d4d1-d2b8-4157-ba92-423ac995b3d3",
+                     "id": "34",
+                     "name": "A recipe for installing a minimal, lightweight KDE Plasma desktop on Ubuntu. : kde",
+                     "type": "url",
+                     "url": "https://www.reddit.com/r/kde/comments/6wty79/a_recipe_for_installing_a_minimal_lightweight_kde/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "6e33c482-cf5e-4ff9-95ae-882c342785ab",
+                     "id": "35",
+                     "name": "Imgur: The magic of the Internet",
+                     "type": "url",
+                     "url": "https://imgur.com/gallery"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "47938c54-336a-4245-828e-88a68547ee06",
+                     "id": "36",
+                     "name": "Hey, Scripting Guy! Can I Open a File Dialog Box with Windows PowerShell? | Scripting Blog",
+                     "type": "url",
+                     "url": "https://devblogs.microsoft.com/scripting/hey-scripting-guy-can-i-open-a-file-dialog-box-with-windows-powershell/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "6dfbb774-7915-4664-9c47-3281b1664b19",
+                     "id": "37",
+                     "name": "How to create an open file/folder dialog box with PowerShell – 4sysops",
+                     "type": "url",
+                     "url": "https://4sysops.com/archives/how-to-create-an-open-file-folder-dialog-box-with-powershell/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "8fadf893-9bdb-40fb-b948-c412299acabd",
+                     "id": "38",
+                     "name": "OpenFileDialog Class (System.Windows.Forms) | Microsoft Docs",
+                     "type": "url",
+                     "url": "https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.openfiledialog?redirectedfrom=MSDN&view=netcore-3.1"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "9c4d287d-bab0-4f07-8830-ad225e70e910",
+                     "id": "39",
+                     "name": "#PSTip Using the System.Windows.Forms.OpenFileDialog Class – PowerShell Magazine",
+                     "type": "url",
+                     "url": "https://www.powershellmagazine.com/2013/07/01/pstip-using-the-system-windows-forms-openfiledialog-class/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "6bd472da-f925-41c4-acd6-75b61c04b7b5",
+                     "id": "40",
+                     "name": "What is PowerShell Start-Process? Code Examples, Tutorials & More",
+                     "type": "url",
+                     "url": "https://stackify.com/what-is-powershell/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "b67dcbfb-637b-4ff1-aae5-ca725a0a09ad",
+                     "id": "41",
+                     "name": "PowerShell Gallery | en-us/about_IconForGUI.help.txt 1.5.2",
+                     "type": "url",
+                     "url": "https://www.powershellgallery.com/packages/IconForGUI/1.5.2/Content/en-us%5Cabout_IconForGUI.help.txt"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "94e9ed72-290f-4efc-b6d3-9722e11b06df",
+                     "id": "42",
+                     "name": "Tales of Phantasia: Full Voice Edition (Japan) PSP ISO - CDRomance",
+                     "type": "url",
+                     "url": "https://cdromance.com/psp/tales-of-phantasia-full-voice-edition/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "3a2bbb74-5694-4228-b458-713a767f33ca",
+                     "id": "43",
+                     "name": "Tales of Phantasia | Aselia | Fandom",
+                     "type": "url",
+                     "url": "https://aselia.fandom.com/wiki/Tales_of_Phantasia"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "3111bfd7-0939-4416-a106-2d07f576f75d",
+                     "id": "44",
+                     "name": "Romhacking.net - Hacks - Ocarina of Time REDUX",
+                     "type": "url",
+                     "url": "http://www.romhacking.net/hacks/5138/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "bd692f3d-58d4-40a1-8404-a90246d55c6e",
+                     "id": "45",
+                     "name": "Romhacking.net - Hacks - \"The Bottomless Bag\" - Inventory Patch",
+                     "type": "url",
+                     "url": "http://www.romhacking.net/hacks/5136/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "6f762e9c-23af-4db0-b977-62b6e65af500",
+                     "id": "46",
+                     "name": "Romhacking.net - Hacks - ReCast FF3: War of the Magitek",
+                     "type": "url",
+                     "url": "http://www.romhacking.net/hacks/5144/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "a988f2e0-4a4e-4e5d-b924-3f119717e2e9",
+                     "id": "47",
+                     "name": "SparkFun Electronics",
+                     "type": "url",
+                     "url": "https://www.sparkfun.com/"
+                  }, {
+                     "date_added": "13240193195000000",
+                     "guid": "63e2172e-99bd-4ca5-95fe-28d4977971d0",
+                     "id": "48",
+                     "name": "Emulation General Wiki",
+                     "type": "url",
+                     "url": "https://emulation.gametechwiki.com/index.php/Main_Page"
+                  } ],
+                  "date_added": "13241252945544225",
+                  "date_modified": "0",
+                  "guid": "0ca9fb80-4f8c-4511-8ff5-4455fe0d2396",
+                  "id": "25",
+                  "name": "CurrentTabs",
+                  "type": "folder"
+               } ],
+               "date_added": "13241252945543844",
+               "date_modified": "13251933882260400",
+               "guid": "72a3a48d-3530-4657-a23b-3f976675b186",
+               "id": "10",
+               "name": "Bookmarks Toolbar",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13228023451000000",
+                  "guid": "76b8dab8-17dc-4fa6-872a-64e1eba276ba",
+                  "id": "50",
+                  "name": "Help and Tutorials",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/products/firefox"
+               }, {
+                  "date_added": "13228023451000000",
+                  "guid": "e8131b7c-3029-472a-a6d9-ebdeaac1796b",
+                  "id": "51",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13228023451000000",
+                  "guid": "0ea3e6e2-1c65-4de8-bb7a-ce84ed169dd1",
+                  "id": "52",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13228023451000000",
+                  "guid": "711b213e-5c54-44d2-bf09-307065dbcc80",
+                  "id": "53",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               }, {
+                  "date_added": "13228023451000000",
+                  "guid": "b51feedf-552b-4603-a90a-1e5380386802",
+                  "id": "54",
+                  "name": "Getting Started",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/firefox/central/"
+               }, {
+                  "date_added": "13228455167000000",
+                  "guid": "775393e5-1652-4d51-b0d0-ade561711792",
+                  "id": "55",
+                  "name": "Add-ons for Firefox",
+                  "type": "url",
+                  "url": "https://addons.mozilla.org/en-US/firefox/"
+               } ],
+               "date_added": "13241252945544895",
+               "date_modified": "0",
+               "guid": "baa02ac1-5197-40bf-8e3c-a1cbcf074211",
+               "id": "49",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13231226205000000",
+                  "guid": "ef9a285f-596d-4fcb-ab1d-4870b41bd1ca",
+                  "id": "57",
+                  "name": "VcXsrv Windows X Server download | SourceForge.net",
+                  "type": "url",
+                  "url": "https://sourceforge.net/projects/vcxsrv/"
+               }, {
+                  "date_added": "13231226222000000",
+                  "guid": "c5f5e673-e0be-4123-a1a5-9b5ab19a01ca",
+                  "id": "58",
+                  "name": "PulseAudio on Windows",
+                  "type": "url",
+                  "url": "https://www.freedesktop.org/wiki/Software/PulseAudio/Ports/Windows/Support/"
+               }, {
+                  "date_added": "13231226251000000",
+                  "guid": "2095d672-ee86-4682-8fe0-94ab0679668f",
+                  "id": "59",
+                  "name": "Configuring LS_COLORS",
+                  "type": "url",
+                  "url": "http://www.bigsoft.co.uk/blog/2008/04/11/configuring-ls_colors"
+               }, {
+                  "date_added": "13231226266000000",
+                  "guid": "1599de5f-0629-4781-ab36-2ebc0e5ca978",
+                  "id": "60",
+                  "name": "ls - Getting zsh to honor dircolors-solarized - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/23555836/getting-zsh-to-honor-dircolors-solarized"
+               }, {
+                  "date_added": "13231226273000000",
+                  "guid": "3072e01f-708d-4a2d-b5da-903ff062dc1b",
+                  "id": "61",
+                  "name": "GitHub - trapd00r/LS_COLORS: A collection of LS_COLORS definitions; needs your contribution!",
+                  "type": "url",
+                  "url": "https://github.com/trapd00r/LS_COLORS"
+               }, {
+                  "date_added": "13231226354000000",
+                  "guid": "86d3982c-5580-49a3-a90b-25225d5ce718",
+                  "id": "62",
+                  "name": "bash - dircolors: modify color settings globaly - Unix & Linux Stack Exchange",
+                  "type": "url",
+                  "url": "https://unix.stackexchange.com/questions/94299/dircolors-modify-color-settings-globaly"
+               }, {
+                  "date_added": "13231226376000000",
+                  "guid": "d4745c36-1ef1-49f3-a57a-de751d8e9303",
+                  "id": "63",
+                  "name": "PyQt - Database Handling - Tutorialspoint",
+                  "type": "url",
+                  "url": "https://www.tutorialspoint.com/pyqt/pyqt_database_handling.htm"
+               }, {
+                  "date_added": "13231226392000000",
+                  "guid": "c08e8f7c-71d6-4ec6-840c-d93bb2afca0e",
+                  "id": "64",
+                  "name": "python-catalin",
+                  "type": "url",
+                  "url": "https://python-catalin.blogspot.com/"
+               }, {
+                  "date_added": "13232219585000000",
+                  "guid": "54162f2f-5527-42dd-905d-ef104ab50913",
+                  "id": "65",
+                  "name": "GitHub - subhra74/xdm: Powerfull download accelerator and video downloader",
+                  "type": "url",
+                  "url": "https://github.com/subhra74/xdm"
+               }, {
+                  "date_added": "13232219601000000",
+                  "guid": "5eb63301-171b-4e56-9a88-c1d74ec0432a",
+                  "id": "66",
+                  "name": "GitHub - PowerShell/PowerShell: PowerShell for every system!",
+                  "type": "url",
+                  "url": "https://github.com/PowerShell/PowerShell"
+               }, {
+                  "date_added": "13232219612000000",
+                  "guid": "bd9369d7-2790-4dac-9754-5ad48aa19583",
+                  "id": "67",
+                  "name": "GitHub - microsoft/terminal: The new Windows Terminal and the original Windows console host, all in the same place!",
+                  "type": "url",
+                  "url": "https://github.com/microsoft/terminal"
+               }, {
+                  "date_added": "13232678545000000",
+                  "guid": "70b5dd69-e307-4c40-8d9e-e4724a90810a",
+                  "id": "68",
+                  "name": "NirCmd - Windows command line tool",
+                  "type": "url",
+                  "url": "https://www.nirsoft.net/utils/nircmd.html"
+               }, {
+                  "date_added": "13233209617000000",
+                  "guid": "61926884-8352-432b-9e8f-fa31f3bfe878",
+                  "id": "69",
+                  "name": "How to run a PowerShell script without displaying a window? - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/1802127/how-to-run-a-powershell-script-without-displaying-a-window/27992426#27992426"
+               }, {
+                  "date_added": "13234173218000000",
+                  "guid": "792e02ce-c742-4b0e-97f8-63304781d9c5",
+                  "id": "70",
+                  "name": "ROMs, ISOs and Console Games - CDRomance",
+                  "type": "url",
+                  "url": "https://cdromance.com/"
+               } ],
+               "date_added": "13241252945545049",
+               "date_modified": "0",
+               "guid": "52710f56-ecf6-49dc-946b-2a903c384c92",
+               "id": "56",
+               "name": "Other Bookmarks",
+               "type": "folder"
+            } ],
+            "date_added": "13241252945543393",
+            "date_modified": "13242698780349501",
+            "guid": "f6a3a730-bde8-44ac-83cb-c80c627183fd",
+            "id": "9",
+            "name": "Imported",
+            "type": "folder"
+         }, {
+            "date_added": "13242698808429791",
+            "guid": "bad5e7b5-ee4f-48a8-8aae-eea027102a82",
+            "id": "73",
+            "name": "gHacks Technology News",
+            "type": "url",
+            "url": "https://www.ghacks.net/"
+         }, {
+            "date_added": "13244772609697674",
+            "guid": "810af7b6-655a-432c-98c9-e658b9189bdd",
+            "id": "76",
+            "name": "Anime Tosho | Anime Tosho",
+            "type": "url",
+            "url": "https://animetosho.org/"
+         }, {
+            "date_added": "13249460700442700",
+            "guid": "ed57d34c-fcee-4fbc-9333-a58c23162d5a",
+            "id": "78",
+            "name": "Retrostic - Download Free ROMs for GB, GBC, GBA, NDS, N64, NES, SNES, Sega, Atari & More",
+            "type": "url",
+            "url": "https://www.retrostic.com/"
+         }, {
+            "date_added": "13251933878524672",
+            "guid": "99fe4ace-e18a-43c8-b725-22b6680475d5",
+            "id": "80",
+            "name": "DLL‑files.com",
+            "type": "url",
+            "url": "https://www.dll-files.com/"
+         }, {
+            "children": [ {
+               "date_added": "13267435597491286",
+               "guid": "a7bb0bed-fef2-4324-90f1-9380ca335b77",
+               "id": "83",
+               "name": "Download Windows 10 X64 10in1 20H2 ESD en-US NOV 2020 {Gen2} Torrent | 1337x",
+               "type": "url",
+               "url": "https://1337x.to/torrent/4692887/Windows-10-X64-10in1-20H2-ESD-en-US-NOV-2020-Gen2/"
+            }, {
+               "date_added": "13267435597491425",
+               "guid": "eb2dfc39-1915-4819-b559-b74e0a2fd9b6",
+               "id": "84",
+               "name": "Anime Tosho | Anime Tosho",
+               "type": "url",
+               "url": "https://animetosho.org/"
+            }, {
+               "date_added": "13267435597491486",
+               "guid": "e727867f-ce93-4e06-ba98-a2e0ca531c7b",
+               "id": "85",
+               "name": "RLoew (1952 - 2019) has passed away. - Windows 9x/ME - MSFN",
+               "type": "url",
+               "url": "https://msfn.org/board/topic/180215-rloew-1952-2019-has-passed-away/"
+            }, {
+               "date_added": "13267435597491575",
+               "guid": "23ddf80c-609b-4625-b277-4bb52a4c498f",
+               "id": "86",
+               "name": "R. Loew Electronics Consulting",
+               "type": "url",
+               "url": "https://web.archive.org/web/20190812081523/http://rloew.x10host.com/"
+            }, {
+               "date_added": "13267435597491642",
+               "guid": "9b1f0aa6-9f64-4f8c-ae7d-286feaed829c",
+               "id": "87",
+               "name": "Internet Archive Search: creator:\"Rudolph R. Loew\"",
+               "type": "url",
+               "url": "https://archive.org/search.php?query=creator%3A%22Rudolph+R.+Loew%22"
+            }, {
+               "date_added": "13267435597491710",
+               "guid": "bbdbeeb0-511b-4502-bb60-ca0963a0f906",
+               "id": "88",
+               "name": "11 BIOS files collection for Sega Genesis, Sega CD, Mega CD and Sega 32X | AppNee Freeware Group.",
+               "type": "url",
+               "url": "https://appnee.com/11-bios-files-collection-for-sega-genesis-sega-cd-mega-cd-and-sega-32x/"
+            }, {
+               "date_added": "13267435597491785",
+               "guid": "5a2660d1-90a5-4e45-b99b-1ea3d77d5cf6",
+               "id": "89",
+               "name": "[09.02] All video game consoles’ BIOS files collection | AppNee Freeware Group.",
+               "type": "url",
+               "url": "https://appnee.com/all-video-game-consoles-bios-files-collection/"
+            }, {
+               "date_added": "13267435597491851",
+               "guid": "21519e8d-2f90-4821-8429-d93872663dfc",
+               "id": "90",
+               "name": "Retrostic - Download Free ROMs for GB, GBC, GBA, NDS, N64, NES, SNES, Sega, Atari & More",
+               "type": "url",
+               "url": "https://www.retrostic.com/"
+            }, {
+               "date_added": "13267435597491914",
+               "guid": "ce18df96-fe57-4635-88e6-c7b1483ba549",
+               "id": "91",
+               "name": "Looking for the OOT rom with the \"CD16C529\" checksum/CRC32 : Roms",
+               "type": "url",
+               "url": "https://www.reddit.com/r/Roms/comments/gs3z2r/looking_for_the_oot_rom_with_the_cd16c529/"
+            }, {
+               "date_added": "13267435597491981",
+               "guid": "27f161a9-1623-4d6d-bf50-fb232669ccf7",
+               "id": "92",
+               "name": "Vimm's Lair: The Vault",
+               "type": "url",
+               "url": "https://vimm.net/?p=vault"
+            }, {
+               "date_added": "13267435597492038",
+               "guid": "c8f50a87-b3b1-4633-b676-afa018667fdf",
+               "id": "93",
+               "name": "GitHub - Awesome-Windows/Awesome: 🎉 An awesome & curated list of best applications and tools for Windows.",
+               "type": "url",
+               "url": "https://github.com/Awesome-Windows/Awesome#windows-10-setup"
+            }, {
+               "date_added": "13267435597492108",
+               "guid": "f0f113aa-067a-4fee-96c0-1ed107eed463",
+               "id": "94",
+               "name": "Sereby.org - Be Up2Date",
+               "type": "url",
+               "url": "https://sereby.org/site/downloads/Adobe%20Reader%209%20Lite"
+            }, {
+               "date_added": "13267435597492170",
+               "guid": "fb77b3e5-4ff4-4a15-89d6-00008fd89927",
+               "id": "95",
+               "name": "MS-DOS Starter Pack - philscomputerlab.com",
+               "type": "url",
+               "url": "https://www.philscomputerlab.com/ms-dos-starter-pack.html"
+            }, {
+               "date_added": "13267435597492242",
+               "guid": "308fc8ac-1b59-461e-b8b1-62e66c6b1c58",
+               "id": "96",
+               "name": "Interesting Vogons Threads - Vogons Wiki",
+               "type": "url",
+               "url": "https://www.vogonswiki.com/index.php/Interesting_Vogons_Threads#Motherboards"
+            }, {
+               "date_added": "13267435597492305",
+               "guid": "dcf73f76-970a-4350-9f23-937f0ce09aea",
+               "id": "97",
+               "name": "Tweak Performance – Smallvoid.com",
+               "type": "url",
+               "url": "http://smallvoid.com/articles/windows-98/performance/"
+            }, {
+               "date_added": "13267435597492368",
+               "guid": "1448cc20-4754-4d69-b6ac-0952e810ed94",
+               "id": "98",
+               "name": "Microsoft Visual C++ supported target Windows versions – WishMesh",
+               "type": "url",
+               "url": "https://wishmesh.com/2009/09/microsoft-visual-c-supported-target-windows-versions/"
+            }, {
+               "date_added": "13267435597492434",
+               "guid": "5c87c41a-9b14-406e-bea1-ea897463fb1c",
+               "id": "99",
+               "name": "7th sphere - Everything2.com",
+               "type": "url",
+               "url": "https://everything2.com/title/7th+sphere"
+            }, {
+               "date_added": "13267435597492499",
+               "guid": "6ca60d03-7974-495c-a3c7-5cb4d057f83f",
+               "id": "100",
+               "name": "Mirc ScriptZ",
+               "type": "url",
+               "url": "https://www.angelfire.com/ny/PretendersDomain/Scripts.html"
+            }, {
+               "date_added": "13267435597492559",
+               "guid": "68752d16-d97f-4bd9-bed0-8681730fdbea",
+               "id": "101",
+               "name": "mirc irc scripts \"FroZeN\" at DuckDuckGo",
+               "type": "url",
+               "url": "https://duckduckgo.com/?q=mirc+irc+scripts+%22FroZeN%22&t=brave&ia=web"
+            } ],
+            "date_added": "13267435597490889",
+            "date_modified": "13267435597492559",
+            "guid": "4f227ee9-36ae-4550-ae49-2db8c32c29c0",
+            "id": "82",
+            "name": "CurrentTabs.6-6-21",
+            "type": "folder"
+         } ],
+         "date_added": "13241115005851513",
+         "date_modified": "13267435597492660",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13242698939287080",
+            "guid": "42726c6f-356b-445f-90bf-69878a3f3957",
+            "id": "74",
+            "name": "GitHub - farag2/Windows-10-Setup-Script: Script to setup Windows 10 LTSC/1903/1909/2004",
+            "type": "url",
+            "url": "https://github.com/farag2/Windows-10-Setup-Script"
+         } ],
+         "date_added": "13241115005851535",
+         "date_modified": "13244772609697674",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13241115005851543",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
