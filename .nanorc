@@ -1,6 +1,6 @@
 set linenumbers
 set nonewlines
-set smooth
+# set smooth
 set softwrap
 set atblanks
 set suspend
