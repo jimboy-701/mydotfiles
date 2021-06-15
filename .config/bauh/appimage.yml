@@ -1,3 +1,7 @@
+database:
+  expiration: 60
 db_updater:
   enabled: true
   interval: 1200
+suggestions:
+  expiration: 24

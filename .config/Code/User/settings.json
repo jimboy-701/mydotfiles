@@ -41,5 +41,11 @@
     "git.enableSmartCommit": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
-    "editor.renderLineHighlight": "all"
+    "editor.renderLineHighlight": "all",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 
 [audgui]
 filebrowser_win=606,285,719,480
-filesel_path=/run/media/jma/SEAGATEUSB/Music/_Recent3
+filesel_path=/run/media
 info_win=215,480,656,423
 
 [gtkui]
@@ -13,12 +13,12 @@ player_y=285
 item_count=0
 
 [skins]
-equalizer_x=1066
-equalizer_y=1013
-player_x=1066
-player_y=897
-playlist_x=319
-playlist_y=781
+equalizer_x=1235
+equalizer_y=426
+player_x=1235
+player_y=310
+playlist_x=488
+playlist_y=194
 skin=/usr/share/audacious/Skins/Refugee
 twoway_scroll=TRUE
 

@@ -6,6 +6,8 @@ backup:
   type: rsync
   uninstall: false
   upgrade: false
+boot:
+  load_apps: true
 disk:
   trim:
     after_upgrade: false
@@ -28,10 +30,13 @@ system:
 ui:
   auto_scale: false
   hdpi: true
+  qt_style: fusion
   scale_factor: 1.0
   style: null
+  system_theme: false
   table:
     max_displayed: 50
+  theme: light
   tray:
     default_icon: null
     updates_icon: null
