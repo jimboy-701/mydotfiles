@@ -47,8 +47,8 @@ Paths
   Traces: /home/jma/.config/byuu/logs/
   Firmware: /home/jma/.config/byuu/firmware/
 Recent
-  Game-1: /home/jma/Roms2/SoM_Turbo.201209/SOM.Turbo/som_msu1.smc
-  Game-2: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/Final Fantasy II (Patched).sfc
+  Game-1: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/Final Fantasy II (Patched).sfc
+  Game-2: /home/jma/Roms2/SoM_Turbo.201209/SOM.Turbo/som_msu1.smc
   Game-3: /home/jma/Roms2/SNES - Secret of Mana Turbo.200603/SOM.Turbo/som_msu1.smc
   Game-4
   Game-5
@@ -89,7 +89,7 @@ FamicomDiskSystem
     BIOS.Japan
 SuperFamicom
   Visible: true
-  Path: /home/jma/Roms2/SoM_Turbo.201209/SOM.Turbo/
+  Path: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/
 SG-1000
   Visible: true
   Path

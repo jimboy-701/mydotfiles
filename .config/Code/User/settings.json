@@ -7,8 +7,6 @@
 
     "window.zoomLevel": 1,
 
-    "terminal.integrated.shell.linux": "/usr/bin/zsh",
-
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
 
@@ -42,10 +40,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "editor.renderLineHighlight": "all",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ]
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    }
 }
