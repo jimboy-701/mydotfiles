@@ -3,8 +3,8 @@ export VISUAL=/usr/bin/nano
 export PAGER=/usr/bin/less
 
 # binaries installed by python pip (for working with vscode)
-export PATH=/home/jma/.local/bin:$PATH
-export PYTHONSTARTUP=".pythonrc.py"
+export PATH=/home/jma/.local/bin:/opt/cross/bin:$PATH
+export PYTHONSTARTUP=~/.pythonrc.py
 
 # export YSU_MESSAGE_POSITION="after"
 # export STARSHIP_CONFIG="~/.starship.toml"

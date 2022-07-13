@@ -96,3 +96,9 @@ bindkey '^[[F' end-of-line                                     # End key
 # Colored file listings
 #
 eval $(dircolors -b $HOME/.dircolors)
+
+# If using Terminology then set a preferred Wallpaper
+#
+if pgrep -u jma terminology >/dev/null 2>&1; then 
+    tybg ~/Pictures/Wallpaper/rVbMM63.jpg
+fi
