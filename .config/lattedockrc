@@ -2,14 +2,18 @@
 outlineWidth=1
 
 [ScreenConnectors]
-10=HDMI1
-11=HDMI2
+10=HDMI1:::0,0 1920x1080
+11=HDMI2:::0,0 1920x1080
+12=DP3:::0,0 1920x1080
 
 [UniversalSettings]
 badges3DStyle=false
 canDisableBorders=false
+contextMenuActionsAlwaysShown=
 currentLayout=My Layout
 downloadWindowSize=800,550
+inAdvancedModeForEditSettings=false
+isAvailableGeometryBroadcastedToPlasma=true
 lastNonAssignedLayout=My Layout
 launchers=
 layoutsColumnWidths=
@@ -19,4 +23,5 @@ metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
+singleModeLayoutName=My Layout
 version=2

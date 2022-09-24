@@ -19,11 +19,11 @@
     "kite.showWelcomeNotificationOnStartup": false,
     "terminal.integrated.cursorBlinking": true,
 
-    "bracket-pair-colorizer-2.colors": [
-        "#D9D9D9",
-        "Orchid",
-        "LightSkyBlue"
-    ],
+    //"bracket-pair-colorizer-2.colors": [
+    //    "#D9D9D9",
+    //    "Orchid",
+    //    "LightSkyBlue"
+    //],
 
     "restoreTerminals.terminals": [
         {
@@ -47,5 +47,5 @@
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "bracket-pair-colorizer-2.depreciation-notice": false
+    //"bracket-pair-colorizer-2.depreciation-notice": false
 }

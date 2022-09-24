@@ -47,28 +47,28 @@ Paths
   Traces: /home/jma/.config/byuu/logs/
   Firmware: /home/jma/.config/byuu/firmware/
 Recent
-  Game-1: /home/jma/Downloads/SA1-Pack-140/Super Mario World (SA-1).smc
-  Game-2: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/Final Fantasy II (Patched).sfc
-  Game-3: /home/jma/Roms2/SoM_Turbo.201209/SOM.Turbo/som_msu1.smc
-  Game-4: /home/jma/Roms2/SNES - Secret of Mana Turbo.200603/SOM.Turbo/som_msu1.smc
-  Game-5
+  Game-1: /home/jma/Downloads/smw_msu1+_PATCH/smw-widescreen.sfc
+  Game-2: /home/jma/Downloads/SA1-Pack-140/Super Mario World (SA-1).smc
+  Game-3: /home/jma/Roms4/SNES - Final Fantasy IV Ultima v11_11/Final Fantasy II (Patched).sfc
+  Game-4: /home/jma/Roms2/SoM_Turbo.201209/SOM.Turbo/som_msu1.smc
+  Game-5: /home/jma/Roms2/SNES - Secret of Mana Turbo.200603/SOM.Turbo/som_msu1.smc
   Game-6
   Game-7
   Game-8
   Game-9
 VirtualPad
-  Up: Joypad/c2a4e3620e6f0214/Hat/1/Lo
-  Down: Joypad/c2a4e3620e6f0214/Hat/1/Hi
-  Left: Joypad/c2a4e3620e6f0214/Hat/0/Lo
-  Right: Joypad/c2a4e3620e6f0214/Hat/0/Hi
-  Select: Joypad/c2a4e3620e6f0214/Button/8
-  Start: Joypad/c2a4e3620e6f0214/Button/9
-  A: Joypad/c2a4e3620e6f0214/Button/1
-  B: Joypad/c2a4e3620e6f0214/Button/2
-  X: Joypad/c2a4e3620e6f0214/Button/0
-  Y: Joypad/c2a4e3620e6f0214/Button/3
-  L: Joypad/c2a4e3620e6f0214/Button/6
-  R: Joypad/c2a4e3620e6f0214/Button/7
+  Up: Keyboard/1/Button/Up
+  Down: Keyboard/1/Button/Down
+  Left: Keyboard/1/Button/Left
+  Right: Keyboard/1/Button/Right
+  Select
+  Start: Keyboard/1/Button/Spacebar
+  A: Keyboard/1/Button/C
+  B: Keyboard/1/Button/Return
+  X: Joypad/e87bc1280e6f0214/Button/0
+  Y: Keyboard/1/Button/X
+  L: Keyboard/1/Button/Z
+  R: Keyboard/1/Button/F5
 Hotkey
   ToggleFullscreen
   FastForward
@@ -89,7 +89,7 @@ FamicomDiskSystem
     BIOS.Japan
 SuperFamicom
   Visible: true
-  Path: /home/jma/Downloads/SA1-Pack-140/
+  Path: /home/jma/Downloads/smw_msu1+_PATCH/
 SG-1000
   Visible: true
   Path

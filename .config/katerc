@@ -18,6 +18,7 @@ Show Full Path in Title=true
 Show Menu Bar=true
 Show Status Bar=false
 Show Tab Bar=true
+Show Url Nav Bar=true
 Startup Session=manual
 
 [KFileDialog Settings]
@@ -27,11 +28,17 @@ detailViewIconSize=0
 
 [KTextEditor Document]
 Allow End of Line Detection=true
+Auto Detect Indent=true
+Auto Reload If State Is In Version Control=true
+Auto Save=false
+Auto Save Interval=0
+Auto Save On Focus Out=false
 BOM=false
 Backup Local=false
 Backup Prefix=
 Backup Remote=false
 Backup Suffix=~
+Camel Cursor=true
 Encoding=UTF-8
 End of Line=0
 Indent On Backspace=true
@@ -68,6 +75,7 @@ Animate Bracket Matching=false
 Auto Color Theme Selection=true
 Color Theme=Breeze Dark
 Font=Hack,10,-1,7,50,0,0,0,0,0
+Line Height Multiplier=1
 Schema=Normal
 Show Indentation Lines=true
 Show Whole Bracket Expression=false
@@ -78,6 +86,7 @@ Allow Mark Menu=true
 Auto Brackets=true
 Auto Center Lines=0
 Auto Completion=true
+Auto Completion Preselect First Entry=true
 Backspace Remove Composed Characters=false
 Bookmark Menu Sorting=0
 Bracket Match Preview=false
@@ -98,6 +107,7 @@ Line Modification=true
 Line Numbers=true
 Maximum Search History Size=100
 Mouse Paste At Cursor Position=false
+Multiple Cursor Modifier=134217728
 Persistent Selection=false
 Scroll Bar Marks=true
 Scroll Bar Mini Map All=true
@@ -106,6 +116,9 @@ Scroll Bar MiniMap=true
 Scroll Bar Preview=true
 Scroll Past End=false
 Search/Replace Flags=140
+Show Documentation With Completion=true
+Show Focus Frame Around Editor=true
+Show Folding Icons On Hover Only=true
 Show Line Count=false
 Show Scrollbars=0
 Show Word Count=false
@@ -126,7 +139,9 @@ SetEditor=false
 
 [MainWindow]
 HDMI1 Height 1080=571
+HDMI1 Height 1920x1080=480
 HDMI1 Width 1920=1352
+HDMI1 Width 1920x1080=1131
 HDMI1 XPosition=294
 HDMI1 YPosition=316
 HDMI2 Height 1080=480
@@ -138,10 +153,15 @@ State=AAAA/wAAAAD9AAAAAAAAA+gAAAHCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG
 ToolBarsMovable=Disabled
 Width 1920=1352
 
+[UiSettings]
+ColorScheme=
+
 [filetree]
 editShade=33,84,111
 listMode=false
 shadingEnabled=true
+showCloseButton=false
 showFullPathOnRoots=false
+showToolbar=true
 sortRole=0
 viewShade=66,73,74

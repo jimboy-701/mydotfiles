@@ -74,15 +74,15 @@ alias mkd="mkdir -pv"
 
 # https://stackoverflow.com/questions/11818408/convert-all-file-extensions-to-lower-case
 #
-rnext() { zmv -v '(*).(*)' '$1.$2:l' }
+rnext() {zmv -v '(*).(*)' '$1.$2:l'}
 
 # https://unix.stackexchange.com/questions/9123/is-there-a-one-liner-that-allows-me-to-create-a-directory-and-move-into-it-at-th
 #
-mkcd() { mkdir -p "$1" && cd "$1"; }
+mkcd() {mkdir -p "$1" && cd "$1";}
 
 ## Remove exec permissions from all files within the current directory & sub directories
 #
-rmexec() { fd --type x --glob '*.?*' -x chmod -v a-x }
+rmexec() {fd --type x --glob '*.?*' -x chmod -v a-x}
 
 ## All aliases related to listing files \ directories
 #

@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
 
 [Compositing]
 GLTextureFilter=1
@@ -20,6 +20,21 @@ BorderActivate=7
 BorderActivateAll=5
 
 [Effect-Wobbly]
+AdvancedMode=true
+Drag=90
+Stiffness=6
+WobblynessLevel=2
+
+[Effect-desktopgrid]
+BorderActivate=7
+
+[Effect-presentwindows]
+BorderActivateAll=5
+
+[Effect-windowview]
+BorderActivateAll=5
+
+[Effect-wobblywindows]
 AdvancedMode=true
 Drag=90
 Stiffness=6

@@ -1,12 +1,146 @@
 [$Version]
-update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts
+update_info=spectacle_shortcuts.upd:spectacle-migrate-shortcuts,konsole_globalaccel.upd:konsole_globalaccel
+
+[ColorEffects:Disabled]
+ChangeSelectionColor[$d]
+Color[$d]
+ColorAmount[$d]
+ColorEffect[$d]
+ContrastAmount[$d]
+ContrastEffect[$d]
+Enable[$d]
+IntensityAmount[$d]
+IntensityEffect[$d]
+
+[ColorEffects:Inactive]
+ChangeSelectionColor[$d]
+Color[$d]
+ColorAmount[$d]
+ColorEffect[$d]
+ContrastAmount[$d]
+ContrastEffect[$d]
+Enable[$d]
+IntensityAmount[$d]
+IntensityEffect[$d]
+
+[Colors:Button]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Complementary]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Header]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Header][Inactive]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Selection]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Tooltip]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:View]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
+
+[Colors:Window]
+BackgroundAlternate[$d]
+BackgroundNormal[$d]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundInactive[$d]
+ForegroundLink[$d]
+ForegroundNegative[$d]
+ForegroundNeutral[$d]
+ForegroundNormal[$d]
+ForegroundPositive[$d]
+ForegroundVisited[$d]
 
 [Data]
 DataCount=7
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
-DataCount=6
+DataCount=5
 Enabled=true
 Name=KMenuEdit
 SystemGroup=1
@@ -43,16 +177,16 @@ Type=SHORTCUT
 Uuid={d03619b6-9b3c-48cc-9d9c-a2aadb485550}
 
 [Data_1_2]
-Comment=Global keyboard shortcut to launch Konsole
+Comment=Comment
 Enabled=true
-Name=Launch Konsole
-Type=MENUENTRY_SHORTCUT_ACTION_DATA
+Name=Launch Audacious
+Type=SIMPLE_ACTION_DATA
 
 [Data_1_2Actions]
 ActionsCount=1
 
 [Data_1_2Actions0]
-CommandURL=org.kde.konsole.desktop
+CommandURL=audacious.desktop
 Type=MENUENTRY
 
 [Data_1_2Conditions]
@@ -64,21 +198,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_1_2Triggers0]
-Key=Ctrl+Alt+T
+Key=Tools
 Type=SHORTCUT
-Uuid={0d57ac94-8b88-47fa-873e-f2c7e9cce2a6}
+Uuid={ab117ece-1218-4896-81f5-5da0d6f3467c}
 
 [Data_1_3]
 Comment=Comment
 Enabled=true
-Name=Launch Audacious
+Name=Launch KCalc
 Type=SIMPLE_ACTION_DATA
 
 [Data_1_3Actions]
 ActionsCount=1
 
 [Data_1_3Actions0]
-CommandURL=audacious.desktop
+CommandURL=org.kde.kcalc.desktop
 Type=MENUENTRY
 
 [Data_1_3Conditions]
@@ -90,21 +224,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_1_3Triggers0]
-Key=Tools
+Key=Launch (1)
 Type=SHORTCUT
-Uuid={ab117ece-1218-4896-81f5-5da0d6f3467c}
+Uuid={73b41508-e7de-40c8-8ed3-a4154d4b3f5a}
 
 [Data_1_4]
 Comment=Comment
 Enabled=true
-Name=Launch KCalc
+Name=Launch Messenger
 Type=SIMPLE_ACTION_DATA
 
 [Data_1_4Actions]
 ActionsCount=1
 
 [Data_1_4Actions0]
-CommandURL=org.kde.kcalc.desktop
+CommandURL=messenger-nativefier.desktop
 Type=MENUENTRY
 
 [Data_1_4Conditions]
@@ -116,21 +250,21 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_1_4Triggers0]
-Key=Launch (1)
+Key=Launch Mail
 Type=SHORTCUT
-Uuid={73b41508-e7de-40c8-8ed3-a4154d4b3f5a}
+Uuid={0bb7e18d-9d01-433f-a0cf-750b43b3e0cb}
 
 [Data_1_5]
 Comment=Comment
 Enabled=true
-Name=Launch Messenger
+Name=Launch Dolphin
 Type=SIMPLE_ACTION_DATA
 
 [Data_1_5Actions]
 ActionsCount=1
 
 [Data_1_5Actions0]
-CommandURL=messenger-nativefier.desktop
+CommandURL=pcmanfm-qt.desktop
 Type=MENUENTRY
 
 [Data_1_5Conditions]
@@ -142,32 +276,6 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_1_5Triggers0]
-Key=Launch Mail
-Type=SHORTCUT
-Uuid={0bb7e18d-9d01-433f-a0cf-750b43b3e0cb}
-
-[Data_1_6]
-Comment=Comment
-Enabled=true
-Name=Launch Dolphin
-Type=SIMPLE_ACTION_DATA
-
-[Data_1_6Actions]
-ActionsCount=1
-
-[Data_1_6Actions0]
-CommandURL=pcmanfm-qt.desktop
-Type=MENUENTRY
-
-[Data_1_6Conditions]
-Comment=
-ConditionsCount=0
-
-[Data_1_6Triggers]
-Comment=Simple_action
-TriggersCount=1
-
-[Data_1_6Triggers0]
 Key=Browser
 Type=SHORTCUT
 Uuid={4f39cd8a-7a6d-4cd4-aef8-03bc7eb4dbe4}
@@ -1093,6 +1201,17 @@ Key=Media Previous
 Type=SHORTCUT
 Uuid={3fc06ae1-dc44-4c54-b9b7-b91d6eb12953}
 
+[DirSelect Dialog]
+DirSelectDialog Size[$d]
+History Items[$d]
+
+[General]
+ColorScheme[$d]
+ColorSchemeHash[$d]
+Name[$d]
+shadeSortColumn[$d]
+widgetStyle[$d]
+
 [Gestures]
 Disabled=true
 MouseButton=2
@@ -1102,10 +1221,51 @@ Timeout=300
 Comment=
 WindowsCount=0
 
+[Icons]
+Theme[$d]
+
+[KDE]
+ColorScheme[$d]
+LookAndFeelPackage[$d]
+ShowDeleteCommand[$d]
+contrast[$d]
+widgetStyle[$d]
+
+[KFileDialog Settings]
+Allow Expansion[$d]
+Automatically select filename extension[$d]
+Breadcrumb Navigation[$d]
+Decoration position[$d]
+LocationCombo Completionmode[$d]
+PathCombo Completionmode[$d]
+Show Bookmarks[$d]
+Show Full Path[$d]
+Show Inline Previews[$d]
+Show Preview[$d]
+Show Speedbar[$d]
+Show hidden files[$d]
+Sort by[$d]
+Sort directories first[$d]
+Sort hidden files last[$d]
+Sort reversed[$d]
+Speedbar Width[$d]
+View Style[$d]
+
 [Main]
 AlreadyImported=defaults,kde32b1,konqueror_gestures_kde321,konsole
 Disabled=false
 Version=2
 
+[PreviewSettings]
+MaximumRemoteSize[$d]
+
 [Voice]
 Shortcut=
+
+[WM]
+activeBackground[$d]
+activeBlend[$d]
+activeForeground[$d]
+inactiveBackground[$d]
+inactiveBlend[$d]
+inactiveForeground[$d]
