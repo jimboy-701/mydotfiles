@@ -3,7 +3,7 @@ set nonewlines
 # set smooth
 set softwrap
 set atblanks
-set suspend
+# set suspend
 set tabsize "4"
 set autoindent
 set smarthome
